@@ -1,5 +1,7 @@
 # TOLEX RESTAURANT — Luxury African Dining
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/0Adetola2/tolex-restaurant)
+
 An award-winning, responsive, four-page restaurant website designed and developed for **TOLEX RESTAURANT**, celebrating authentic African gastronomy, royal hospitality, and luxury modern aesthetics.
 
 ![Brand Direction](assets/images/hero-1.jpg)
