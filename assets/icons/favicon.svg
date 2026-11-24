@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="favGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE47A" />
+      <stop offset="50%" stop-color="#F5C51B" />
+      <stop offset="100%" stop-color="#C29400" />
+    </linearGradient>
+    <linearGradient id="favLeaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A2B84D" />
+      <stop offset="100%" stop-color="#788A35" />
+    </linearGradient>
+  </defs>
+
+  <!-- Dark circular background -->
+  <circle cx="32" cy="32" r="30" fill="#171717" stroke="url(#favGold)" stroke-width="2.5"/>
+  <circle cx="32" cy="32" r="26" stroke="#292929" stroke-width="1.5"/>
+
+  <!-- TOLEX 'T' Crest with Culinary Dome & African Leaf -->
+  <path d="M22 36 C22 25, 42 25, 42 36 Z" fill="url(#favGold)" opacity="0.95"/>
+  <rect x="20" y="37" width="24" height="2.5" rx="1.2" fill="url(#favGold)"/>
+  <circle cx="32" cy="23" r="2.5" fill="url(#favGold)"/>
+  
+  <!-- Green leaf flourishes -->
+  <path d="M32 41 C28 44, 24 43, 22 40 C24 38, 29 38, 32 41 Z" fill="url(#favLeaf)"/>
+  <path d="M32 41 C36 44, 40 43, 42 40 C40 38, 35 38, 32 41 Z" fill="url(#favLeaf)"/>
+  <circle cx="32" cy="41.5" r="1.2" fill="url(#favGold)"/>
+
+  <!-- Prominent T monogram overlay in gold/white -->
+  <text x="32" y="55" font-family="'Cinzel', 'Playfair Display', serif" font-size="16" font-weight="900" fill="#F5F2E9" text-anchor="middle" letter-spacing="1">
+    T
+  </text>
+</svg>

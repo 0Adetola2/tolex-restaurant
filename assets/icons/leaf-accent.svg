@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" width="100" height="80" fill="none">
+  <defs>
+    <linearGradient id="leafGradMain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9EBA47" />
+      <stop offset="60%" stop-color="#788A35" />
+      <stop offset="100%" stop-color="#556322" />
+    </linearGradient>
+    <linearGradient id="leafGradSub" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B4D152" />
+      <stop offset="70%" stop-color="#849938" />
+      <stop offset="100%" stop-color="#607127" />
+    </linearGradient>
+    <filter id="leafShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#leafShadow)">
+    <!-- Main succulent leaf -->
+    <path d="M12 70 C15 45, 42 12, 85 8 C75 35, 52 65, 12 70 Z" fill="url(#leafGradMain)"/>
+    <!-- Leaf midrib stem line -->
+    <path d="M15 67 C35 50, 58 32, 83 10" stroke="#FFE47A" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+    <!-- Side vein lines -->
+    <path d="M35 52 C32 44, 30 38, 32 35" stroke="#FFE47A" stroke-width="0.8" opacity="0.4"/>
+    <path d="M50 40 C50 32, 53 26, 56 22" stroke="#FFE47A" stroke-width="0.8" opacity="0.4"/>
+    <path d="M65 27 C68 22, 73 18, 77 15" stroke="#FFE47A" stroke-width="0.8" opacity="0.4"/>
+
+    <!-- Secondary overlapping leaf -->
+    <path d="M22 75 C30 58, 60 48, 88 52 C72 68, 50 78, 22 75 Z" fill="url(#leafGradSub)" opacity="0.9"/>
+    <path d="M26 73 C48 64, 68 58, 85 53" stroke="#FFE47A" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+  </g>
+</svg>

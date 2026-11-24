@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us & Reservations — TOLEX RESTAURANT | Luxury African Dining</title>
+  <meta name="description" content="Get in touch with TOLEX RESTAURANT. Reserve a dining table, enquire about private events and catering, or send us feedback.">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="site-wrapper">
+
+  <!-- ==================== HEADER & NAVIGATION ==================== -->
+  <header class="tolex-header" id="mainHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo-link" aria-label="TOLEX RESTAURANT Home">
+        <img src="assets/logo/logo.svg" alt="TOLEX RESTAURANT" class="brand-logo-svg" width="220" height="52">
+      </a>
+
+      <nav class="desktop-nav-menu" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Our Services</a>
+        <a href="contact.html" class="nav-link is-active">Contact Us</a>
+      </nav>
+
+      <div class="nav-right-actions">
+        <button type="button" class="cart-toggle-btn" data-open-cart aria-label="Open Order Enquiry Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-2z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="cart-counter-badge">0</span>
+        </button>
+
+        <button type="button" class="btn btn-gold btn-sm btn-reservation-header" data-open-reservation>
+          Reserve a Table
+        </button>
+
+        <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open Mobile Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Mobile Navigation">
+    <div class="mobile-nav-header">
+      <img src="assets/logo/logo.svg" alt="TOLEX RESTAURANT" width="180">
+      <button type="button" class="close-mobile-nav" id="closeMobileNav" aria-label="Close Mobile Menu">&times;</button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="about.html" class="mobile-nav-link">About Us</a>
+      <a href="services.html" class="mobile-nav-link">Our Services</a>
+      <a href="contact.html" class="mobile-nav-link is-active">Contact Us</a>
+    </div>
+    <div class="mobile-nav-footer">
+      <button type="button" class="btn btn-gold w-100" data-open-reservation>
+        Reserve a Table
+      </button>
+      <button type="button" class="btn btn-outline-gold w-100" data-open-cart>
+        Order Enquiry Cart
+      </button>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ==================== 1. CONTACT HERO ==================== -->
+    <section class="page-hero-section">
+      <img src="assets/images/hero-3.jpg" alt="Dining Ambiance at TOLEX RESTAURANT" class="page-hero-bg">
+      <div class="page-hero-overlay"></div>
+      
+      <!-- Decorative Botanical Corners -->
+      <img src="assets/icons/corner-ornament.svg" class="hero-corner-filigree top-left" alt="" aria-hidden="true">
+      <img src="assets/icons/corner-ornament.svg" class="hero-corner-filigree top-right" alt="" aria-hidden="true">
+
+      <div class="container page-hero-content reveal-up">
+        <div class="page-breadcrumbs">
+          <a href="index.html">Home</a> <span>/</span> <span>Contact Us</span>
+        </div>
+        <h1 class="page-hero-title">Connect with <span class="text-gold">Our Concierge</span></h1>
+        <div class="gold-divider-center">
+          <span class="line"></span><span class="icon">✦</span><span class="line right"></span>
+        </div>
+        <p class="page-hero-subtitle">
+          We welcome table reservation enquiries, private event consultations, feedback, and special requests. Our concierge team is at your dedicated service.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== 2. CONTACT INFO CARDS ==================== -->
+    <section class="section-spacing" style="padding-bottom: 2rem;">
+      <div class="container">
+        <div class="why-us-grid">
+          <!-- Phone Card -->
+          <div class="why-us-card reveal-up">
+            <div class="why-us-icon-wrap">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <h3 class="why-us-title">Phone Concierge</h3>
+            <p class="why-us-desc">
+              Direct table reservations and inquiries:<br>
+              <strong class="text-gold">+234 (0) 800 000 TOLEX</strong><br>
+              <span class="text-muted">[Editable Phone Placeholder]</span>
+            </p>
+          </div>
+
+          <!-- WhatsApp Direct -->
+          <div class="why-us-card reveal-up">
+            <div class="why-us-icon-wrap">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.586 1.761.88 2.791.88 3.181 0 5.768-2.587 5.768-5.766.001-3.181-2.585-5.766-5.768-5.766zm9.969 5.766c0 5.514-4.486 10-10 10-1.748 0-3.385-.45-4.819-1.239l-5.181 1.355 1.378-5.034c-.879-1.488-1.378-3.219-1.378-5.082 0-5.514 4.486-10 10-10s10 4.486 10 10z"/></svg>
+            </div>
+            <h3 class="why-us-title">WhatsApp Fast Desk</h3>
+            <p class="why-us-desc">
+              Instant responses, menu queries & takeout:<br>
+              <a href="https://wa.me/2348123456789" target="_blank" rel="noopener noreferrer" class="text-gold" style="font-weight: 700;">+234 (0) 812 345 6789</a><br>
+              <span class="text-muted">[Editable WhatsApp Placeholder]</span>
+            </p>
+          </div>
+
+          <!-- Email Desk -->
+          <div class="why-us-card reveal-up">
+            <div class="why-us-icon-wrap">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </div>
+            <h3 class="why-us-title">Email Inquiries</h3>
+            <p class="why-us-desc">
+              Events, media & dining inquiries:<br>
+              <strong class="text-gold">reservations@tolexrestaurant.com</strong><br>
+              <span class="text-muted">[Editable Email Placeholder]</span>
+            </p>
+          </div>
+
+          <!-- Address & Hours -->
+          <div class="why-us-card reveal-up">
+            <div class="why-us-icon-wrap">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h3 class="why-us-title">Location & Hours</h3>
+            <p class="why-us-desc">
+              Plot 14, Luxury Boulevard [Editable Address]<br>
+              <strong class="text-gold">Mon–Thu:</strong> 11:30 AM – 11:00 PM<br>
+              <strong class="text-gold">Fri–Sun:</strong> 11:30 AM – 12:30 AM
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3 & 4. DUAL FORMS SECTION ==================== -->
+    <section class="section-spacing" id="forms-section">
+      <div class="container">
+        <div class="contact-grid">
+
+          <!-- Left Column: Primary Table Reservation Form -->
+          <div class="form-luxury-card reveal-up" id="reservation-section">
+            <span class="section-tag-gold">Priority Bookings</span>
+            <h2 style="font-size: 2rem; margin-bottom: 0.5rem; color: var(--color-warm-white);">Request a Table</h2>
+            <div class="slide-gold-line" style="width: 60px; margin-bottom: 1.25rem;"></div>
+            <p style="color: var(--color-warm-muted); font-size: 0.95rem; margin-bottom: 2rem;">
+              Fill in your dining preferences. Our reservation manager will review table availability and confirm with you promptly.
+            </p>
+
+            <form id="pageReservationForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="pageResName">Customer Name *</label>
+                  <input type="text" id="pageResName" name="name" class="form-control" placeholder="e.g. Chief Adeleke" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="pageResPhone">Phone Number *</label>
+                  <input type="tel" id="pageResPhone" name="phone" class="form-control" placeholder="+234 or +1 ..." required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="pageResEmail">Email Address *</label>
+                  <input type="email" id="pageResEmail" name="email" class="form-control" placeholder="name@domain.com" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="pageResGuests">Number of Guests *</label>
+                  <select id="pageResGuests" name="guests" class="form-control" required>
+                    <option value="1">1 Person</option>
+                    <option value="2" selected>2 Persons (Intimate)</option>
+                    <option value="4">3 - 4 Persons</option>
+                    <option value="6">5 - 8 Persons</option>
+                    <option value="12">9 - 15 Persons</option>
+                    <option value="20">16+ Persons (VIP Salon)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="pageResDate">Preferred Date *</label>
+                  <input type="date" id="pageResDate" name="date" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="pageResTime">Preferred Time *</label>
+                  <select id="pageResTime" name="time" class="form-control" required>
+                    <option value="12:00 PM">12:00 PM (Lunch)</option>
+                    <option value="01:30 PM">01:30 PM</option>
+                    <option value="03:00 PM">03:00 PM</option>
+                    <option value="06:30 PM">06:30 PM</option>
+                    <option value="08:00 PM" selected>08:00 PM (Dinner)</option>
+                    <option value="09:30 PM">09:30 PM</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="pageResSeating">Seating Preference</label>
+                <select id="pageResSeating" name="seating" class="form-control">
+                  <option value="Main Dining Room">Main Dining Room (Chandelier Ambience)</option>
+                  <option value="Private VIP Lounge">Private VIP Lounge (Discreet & Intimate)</option>
+                  <option value="Garden Terrace">Garden Terrace (Al Fresco Evening)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="pageResNotes">Special Requests / Occasion</label>
+                <textarea id="pageResNotes" name="special_requests" class="form-control" placeholder="Dietary restrictions, celebration toast, high chair..."></textarea>
+              </div>
+
+              <div class="res-notice-box" style="background: rgba(245, 197, 27, 0.08); border: 1px solid rgba(245, 197, 27, 0.25); padding: 0.85rem; border-radius: var(--radius-sm); margin-bottom: 1.5rem; font-size: 0.82rem; color: var(--color-warm-muted);">
+                ⚠️ <strong>Important Booking Notice:</strong> This reservation request is subject to restaurant availability. Your table is confirmed only after approval by our dining management.
+              </div>
+
+              <button type="submit" class="btn btn-gold btn-lg w-100">
+                Submit Reservation Request
+              </button>
+            </form>
+          </div>
+
+          <!-- Right Column: General Contact / Feedback Form -->
+          <div class="form-luxury-card reveal-up">
+            <span class="section-tag-gold">Customer Care</span>
+            <h2 style="font-size: 2rem; margin-bottom: 0.5rem; color: var(--color-warm-white);">General Enquiry & Message</h2>
+            <div class="slide-gold-line" style="width: 60px; margin-bottom: 1.25rem;"></div>
+            <p style="color: var(--color-warm-muted); font-size: 0.95rem; margin-bottom: 2rem;">
+              Have questions regarding our African culinary selections, private chef bookings, or catering? Send us a direct message below.
+            </p>
+
+            <form id="contactForm">
+              <div class="form-group">
+                <label class="form-label" for="contactFullName">Full Name *</label>
+                <input type="text" id="contactFullName" name="name" class="form-control" placeholder="Your Full Name" required>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="contactEmail">Email Address *</label>
+                  <input type="email" id="contactEmail" name="email" class="form-control" placeholder="name@domain.com" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="contactPhone">Phone Number</label>
+                  <input type="tel" id="contactPhone" name="phone" class="form-control" placeholder="+234 ...">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contactSubject">Subject *</label>
+                <select id="contactSubject" name="subject" class="form-control" required>
+                  <option value="General Dining Inquiry">General Dining Inquiry</option>
+                  <option value="Event Catering Quote">Event Catering Quote</option>
+                  <option value="VIP Private Dining Reservation">VIP Private Dining Reservation</option>
+                  <option value="Guest Feedback & Compliments">Guest Feedback & Compliments</option>
+                  <option value="Press & Media Relations">Press & Media Relations</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contactMessage">Message *</label>
+                <textarea id="contactMessage" name="message" class="form-control" style="min-height: 140px;" placeholder="Tell us how we can assist you..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-outline-gold btn-lg w-100">
+                Send Direct Message
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. CONFIGURABLE LOCATION / MAP SECTION ==================== -->
+    <section class="section-spacing" style="background-color: var(--color-charcoal); border-top: 1px solid rgba(245, 197, 27, 0.2); border-bottom: 1px solid rgba(245, 197, 27, 0.2);">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag-gold">Finding Us</span>
+          <h2 class="section-title">Restaurant <span class="text-gold">Location & Arrival</span></h2>
+          <div class="gold-divider-center">
+            <span class="line"></span><span class="icon">✦</span><span class="line right"></span>
+          </div>
+          <p class="section-subtitle">
+            Conveniently situated in the prime dining district with secure private parking and dedicated valet services.
+          </p>
+        </div>
+
+        <!-- Styled Dark Map Box Placeholder -->
+        <div class="reveal-up" style="position: relative; border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--color-gold); box-shadow: var(--shadow-card); background: #1a1a1a; min-height: 420px; display: flex; align-items: center; justify-content: center; text-align: center; padding: 2rem;">
+          
+          <!-- Decorative Dark Map Background Grid Lines & Vignette -->
+          <div style="position: absolute; inset: 0; background: radial-gradient(circle at center, rgba(35, 35, 35, 0.6) 0%, rgba(20, 20, 20, 0.98) 100%), repeating-linear-gradient(0deg, rgba(245, 197, 27, 0.04) 0px, rgba(245, 197, 27, 0.04) 1px, transparent 1px, transparent 40px), repeating-linear-gradient(90deg, rgba(245, 197, 27, 0.04) 0px, rgba(245, 197, 27, 0.04) 1px, transparent 1px, transparent 40px);"></div>
+
+          <div style="position: relative; z-index: 2; max-width: 560px;">
+            <div style="width: 72px; height: 72px; background: rgba(245, 197, 27, 0.15); border: 2px solid var(--color-gold); border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem auto; color: var(--color-gold); font-size: 2rem; box-shadow: 0 0 25px var(--color-gold-glow);">
+              📍
+            </div>
+
+            <h3 style="font-size: 1.85rem; color: var(--color-warm-white); margin-bottom: 0.5rem;">TOLEX RESTAURANT</h3>
+            <p style="font-size: 1.1rem; color: var(--color-gold); margin-bottom: 1rem;">
+              Plot 14, Luxury Boulevard, Victoria Island / Downtown Culinary Quarter
+            </p>
+            <p style="color: var(--color-warm-muted); font-size: 0.92rem; line-height: 1.6; margin-bottom: 1.75rem;">
+              <em>*Configurable Location Placeholder: This container is ready for your Google Maps iframe embed or OpenStreetMap interactive widget upon final deployment.</em>
+            </p>
+
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+              <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="btn btn-gold btn-sm">
+                Open in Google Maps
+              </a>
+              <button type="button" class="btn btn-outline btn-sm" onclick="window.tolexShowToast('Valet parking is complimentary for all confirmed dining reservations.', 'info')">
+                Valet Parking Information
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 6. SOCIAL MEDIA SECTION ==================== -->
+    <section class="section-spacing text-center">
+      <div class="container">
+        <div class="reveal-up">
+          <span class="section-tag-gold">Stay Connected</span>
+          <h2 class="section-title">Follow the <span class="text-gold">TOLEX Journey</span></h2>
+          <div class="gold-divider-center">
+            <span class="line"></span><span class="icon">✦</span><span class="line right"></span>
+          </div>
+          <p class="section-subtitle" style="margin-bottom: 2.5rem;">
+            Follow our culinary brigade for behind-the-scenes plating videos, chef specials, and festival announcements.
+          </p>
+
+          <div style="display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold" style="min-width: 170px;">
+              📸 Instagram
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold" style="min-width: 170px;">
+              👥 Facebook
+            </a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold" style="min-width: 170px;">
+              🎵 TikTok
+            </a>
+            <a href="https://wa.me/2348123456789" target="_blank" rel="noopener noreferrer" class="btn btn-gold" style="min-width: 170px;">
+              💬 WhatsApp Concierge
+            </a>
+          </div>
+          <p style="font-size: 0.8rem; color: var(--color-warm-muted); margin-top: 1.25rem;">
+            <em>*Social links are easily editable to reflect official restaurant handle URLs.</em>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="tolex-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <a href="index.html" aria-label="TOLEX RESTAURANT Home">
+            <img src="assets/logo/logo.svg" alt="TOLEX RESTAURANT" class="brand-logo-svg" width="220">
+          </a>
+          <p class="footer-brand-desc">
+            TOLEX RESTAURANT is a premier African dining destination dedicated to celebrating authentic culinary heritage, exquisite plating, and royal hospitality in an atmosphere of modern luxury.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li class="footer-link-item"><a href="index.html">Home</a></li>
+            <li class="footer-link-item"><a href="about.html">About Us</a></li>
+            <li class="footer-link-item"><a href="services.html">Our Services</a></li>
+            <li class="footer-link-item"><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Quick Actions</h4>
+          <ul class="footer-links-list">
+            <li class="footer-link-item"><a href="#reservation-section">Book a Table</a></li>
+            <li class="footer-link-item"><a href="#forms-section">Send a Message</a></li>
+            <li class="footer-link-item"><a href="services.html#catering">Event Catering</a></li>
+            <li class="footer-link-item"><a href="services.html#menu">View Food Menu</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Contact & Hours</h4>
+          <div class="footer-contact-info-list">
+            <div class="footer-contact-item">
+              <span class="footer-contact-icon">📍</span>
+              <p class="footer-contact-text">Plot 14, Luxury Boulevard [Editable Address Placeholder]</p>
+            </div>
+            <div class="footer-contact-item">
+              <span class="footer-contact-icon">📞</span>
+              <p class="footer-contact-text">+234 (0) 800 000 TOLEX</p>
+            </div>
+            <div class="footer-hours-badge">
+              🕒 Mon–Sun: 11:30 AM – Late
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p class="footer-copy-text">
+          &copy; 2026 <span>TOLEX RESTAURANT</span>. All Rights Reserved. Luxury African Dining.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== TABLE RESERVATION MODAL ==================== -->
+  <div class="tolex-modal-backdrop" id="reservationModal" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
+    <div class="tolex-modal-dialog">
+      <div class="modal-corner-ornament top-left"></div>
+      <div class="modal-corner-ornament top-right"></div>
+      <button type="button" class="modal-close-btn" data-close-modal aria-label="Close Reservation Modal">&times;</button>
+
+      <div class="modal-header-crest text-center" style="margin-bottom: 1.5rem;">
+        <img src="assets/icons/favicon.svg" alt="TOLEX Crest" width="48" style="margin: 0 auto 0.75rem auto;">
+        <span class="section-tag-gold">Royal Hospitality</span>
+        <h3 class="modal-title" id="contactModalTitle" style="font-size: 1.85rem; margin-top: 0.5rem;">Table Reservation Request</h3>
+      </div>
+
+      <form id="tableReservationForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="cModalName">Customer Name *</label>
+            <input type="text" id="cModalName" name="name" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="cModalPhone">Phone Number *</label>
+            <input type="tel" id="cModalPhone" name="phone" class="form-control" placeholder="+234 or +1 ..." required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="cModalEmail">Email Address *</label>
+            <input type="email" id="cModalEmail" name="email" class="form-control" placeholder="name@domain.com" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="cModalGuests">Number of Guests *</label>
+            <select id="cModalGuests" name="guests" class="form-control" required>
+              <option value="1">1 Person</option>
+              <option value="2" selected>2 Persons</option>
+              <option value="4">3 - 4 Persons</option>
+              <option value="8">5 - 8 Persons</option>
+              <option value="15">9+ Persons</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="cModalDate">Preferred Date *</label>
+            <input type="date" id="cModalDate" name="date" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="cModalTime">Preferred Time *</label>
+            <select id="cModalTime" name="time" class="form-control" required>
+              <option value="12:00 PM">12:00 PM</option>
+              <option value="01:30 PM">01:30 PM</option>
+              <option value="06:30 PM">06:30 PM</option>
+              <option value="08:00 PM" selected>08:00 PM</option>
+              <option value="09:30 PM">09:30 PM</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cModalSeating">Seating Preference</label>
+          <select id="cModalSeating" name="seating" class="form-control">
+            <option value="Main Dining Room">Main Dining Room</option>
+            <option value="Private VIP Lounge">Private VIP Lounge</option>
+            <option value="Garden Terrace">Garden Terrace</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cModalNotes">Special Requests</label>
+          <textarea id="cModalNotes" name="special_requests" class="form-control" placeholder="Special requirements..."></textarea>
+        </div>
+
+        <div class="res-notice-box" style="background: rgba(245, 197, 27, 0.08); border: 1px solid rgba(245, 197, 27, 0.25); padding: 0.85rem; border-radius: var(--radius-sm); margin-bottom: 1.5rem; font-size: 0.82rem; color: var(--color-warm-muted);">
+          ⚠️ <strong>Notice:</strong> Submitting this request sends your preferred reservation time to our team. Your table is confirmed once approved by restaurant management.
+        </div>
+
+        <button type="submit" class="btn btn-gold btn-lg w-100">
+          Submit Table Reservation Request
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==================== ORDER CART DRAWER ==================== -->
+  <div class="cart-drawer-backdrop" id="cartDrawerBackdrop"></div>
+  <aside class="order-cart-drawer" id="orderCartDrawer" aria-label="Order Enquiry Cart">
+    <div class="cart-drawer-header">
+      <div style="display: flex; align-items: center; gap: 0.75rem;">
+        <span style="font-size: 1.4rem;">🛍️</span>
+        <h3 class="cart-drawer-title">Order Enquiry Cart</h3>
+      </div>
+      <button type="button" class="modal-close-btn" id="closeCartDrawerBtn" aria-label="Close Cart">&times;</button>
+    </div>
+    <div class="cart-drawer-empty-state" id="cartEmptyState">
+      <div style="font-size: 3rem; margin-bottom: 1rem; opacity: 0.6;">🍽️</div>
+      <h4 style="font-size: 1.25rem; color: var(--color-warm-white); margin-bottom: 0.5rem;">Your Cart is Empty</h4>
+      <p style="font-size: 0.9rem; margin-bottom: 1.5rem;">Explore our popular dishes and add your favorites to build your enquiry.</p>
+      <a href="services.html#menu" class="btn btn-gold btn-sm">Browse Food Menu</a>
+    </div>
+    <div class="cart-items-scroll-area" id="cartItemsList"></div>
+    <div class="cart-drawer-footer" id="cartCheckoutContainer" style="display: none;">
+      <div class="cart-subtotal-row">
+        <span class="subtotal-label">Estimated Total:</span>
+        <span class="subtotal-val" id="cartSubtotalAmount">₦0</span>
+      </div>
+      <div class="form-group" style="margin-bottom: 0.85rem;">
+        <input type="text" id="cartCustomerName" class="form-control" placeholder="Your Name">
+      </div>
+      <div class="form-group" style="margin-bottom: 0.85rem;">
+        <select id="cartOrderType" class="form-control">
+          <option value="Dine-in / Table Service">Dine-in / Table Service</option>
+          <option value="Takeaway / Pickup">Takeaway / Express Pickup</option>
+          <option value="Event Catering Enquiry">Event Catering Enquiry</option>
+        </select>
+      </div>
+      <div class="form-group" style="margin-bottom: 1.25rem;">
+        <input type="text" id="cartSpecialInstructions" class="form-control" placeholder="Special instructions">
+      </div>
+      <button type="button" class="btn btn-gold w-100" id="cartWhatsAppCheckoutBtn">
+        Send Order Enquiry via WhatsApp
+      </button>
+    </div>
+  </aside>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-to-top-btn" id="backToTopBtn" aria-label="Back to Top">↑</button>
+
+  <!-- SCRIPTS -->
+  <script src="js/menu.js"></script>
+  <script src="js/reservations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

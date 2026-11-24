@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 84" width="360" height="84" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE47A" />
+      <stop offset="50%" stop-color="#F5C51B" />
+      <stop offset="100%" stop-color="#C29400" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A2B84D" />
+      <stop offset="100%" stop-color="#788A35" />
+    </linearGradient>
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#F5C51B" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Emblem / Crest -->
+  <g transform="translate(4, 6)" filter="url(#goldGlow)">
+    <!-- Outer concentric culinary rim -->
+    <circle cx="36" cy="36" r="34" stroke="url(#goldGrad)" stroke-width="1.8" stroke-dasharray="2 4" opacity="0.6"/>
+    <circle cx="36" cy="36" r="30" stroke="url(#goldGrad)" stroke-width="2"/>
+    <circle cx="36" cy="36" r="26" stroke="#292929" stroke-width="1.2"/>
+    
+    <!-- Stylized Crown / African Botanical Dining Motif -->
+    <!-- Center Cloche / Dome -->
+    <path d="M22 41 C22 28, 50 28, 50 41 Z" fill="url(#goldGrad)" opacity="0.95"/>
+    <rect x="20" y="42" width="32" height="3" rx="1.5" fill="url(#goldGrad)"/>
+    <!-- Dome handle / crown bead -->
+    <circle cx="36" cy="26" r="3" fill="url(#goldGrad)"/>
+    <path d="M36 21 L36 24" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Botanical Accent Leaves (Green & Gold) -->
+    <path d="M36 46 C32 49, 27 48, 25 45 C27 43, 33 43, 36 46 Z" fill="url(#leafGrad)"/>
+    <path d="M36 46 C40 49, 45 48, 47 45 C45 43, 39 43, 36 46 Z" fill="url(#leafGrad)"/>
+    <circle cx="36" cy="46.5" r="1.5" fill="url(#goldGrad)"/>
+
+    <!-- Subtle African Geometric Sunburst Lines -->
+    <line x1="36" y1="8" x2="36" y2="13" stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="16" y1="18" x2="20" y2="21" stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="56" y1="18" x2="52" y2="21" stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Typography: TOLEX -->
+  <text x="88" y="44" font-family="'Cinzel', 'Playfair Display', 'Cormorant Garamond', 'Georgia', serif" font-size="34" font-weight="700" letter-spacing="4" fill="#F5F2E9">
+    T<tspan fill="url(#goldGrad)">O</tspan>LEX
+  </text>
+
+  <!-- Typography: Subtitle RESTAURANT -->
+  <text x="90" y="62" font-family="'Plus Jakarta Sans', 'Montserrat', 'Helvetica Neue', sans-serif" font-size="10.5" font-weight="600" letter-spacing="7" fill="url(#goldGrad)">
+    RESTAURANT
+  </text>
+
+  <!-- African Heritage Tagline / Divider -->
+  <line x1="90" y1="68" x2="260" y2="68" stroke="url(#goldGrad)" stroke-width="1" opacity="0.4"/>
+  <circle cx="265" cy="68" r="1.5" fill="url(#goldGrad)"/>
+  <text x="274" y="71" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="500" letter-spacing="2" fill="#A0A0A0">
+    AFRICAN CUISINE
+  </text>
+</svg>

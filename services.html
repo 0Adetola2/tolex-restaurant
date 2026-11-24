@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services — TOLEX RESTAURANT | Fine African Dining & Hospitality</title>
+  <meta name="description" content="Explore luxury African restaurant dining, private salons, bespoke event catering, food ordering, and table reservations at TOLEX RESTAURANT.">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="site-wrapper">
+
+  <!-- ==================== HEADER & NAVIGATION ==================== -->
+  <header class="tolex-header" id="mainHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo-link" aria-label="TOLEX RESTAURANT Home">
+        <img src="assets/logo/logo.svg" alt="TOLEX RESTAURANT" class="brand-logo-svg" width="220" height="52">
+      </a>
+
+      <nav class="desktop-nav-menu" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link is-active">Our Services</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+      </nav>
+
+      <div class="nav-right-actions">
+        <button type="button" class="cart-toggle-btn" data-open-cart aria-label="Open Order Enquiry Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-2z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="cart-counter-badge">0</span>
+        </button>
+
+        <button type="button" class="btn btn-gold btn-sm btn-reservation-header" data-open-reservation>
+          Reserve a Table
+        </button>
+
+        <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open Mobile Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Mobile Navigation">
+    <div class="mobile-nav-header">
+      <img src="assets/logo/logo.svg" alt="TOLEX RESTAURANT" width="180">
+      <button type="button" class="close-mobile-nav" id="closeMobileNav" aria-label="Close Mobile Menu">&times;</button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="about.html" class="mobile-nav-link">About Us</a>
+      <a href="services.html" class="mobile-nav-link is-active">Our Services</a>
+      <a href="contact.html" class="mobile-nav-link">Contact Us</a>
+    </div>
+    <div class="mobile-nav-footer">
+      <button type="button" class="btn btn-gold w-100" data-open-reservation>
+        Reserve a Table
+      </button>
+      <button type="button" class="btn btn-outline-gold w-100" data-open-cart>
+        Order Enquiry Cart
+      </button>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ==================== 1. PAGE HERO ==================== -->
+    <section class="page-hero-section">
+      <img src="assets/images/hero-3.jpg" alt="Dining Ambiance and Hospitality Services" class="page-hero-bg">
+      <div class="page-hero-overlay"></div>
+      
+      <!-- Decorative Botanical Corners -->
+      <img src="assets/icons/corner-ornament.svg" class="hero-corner-filigree top-left" alt="" aria-hidden="true">
+      <img src="assets/icons/corner-ornament.svg" class="hero-corner-filigree top-right" alt="" aria-hidden="true">
+
+      <div class="container page-hero-content reveal-up">
+        <div class="page-breadcrumbs">
+          <a href="index.html">Home</a> <span>/</span> <span>Our Services</span>
+        </div>
+        <h1 class="page-hero-title">Premier <span class="text-gold">Hospitality Services</span></h1>
+        <div class="gold-divider-center">
+          <span class="line"></span><span class="icon">✦</span><span class="line right"></span>
+        </div>
+        <p class="page-hero-subtitle">
+          From exquisite daily dining to bespoke wedding galas and private VIP salon bookings, explore how TOLEX RESTAURANT transforms every culinary occasion into a masterpiece.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== DETAILED SERVICES SHOWCASE ==================== -->
+    <section class="section-spacing">
+      <div class="container">
+
+        <!-- 1. Restaurant Dining -->
+        <article class="service-full-card reveal-up" id="dining">
+          <div class="service-full-media">
+            <img src="assets/images/hero-1.jpg" alt="Restaurant Dining at TOLEX" class="service-full-img" loading="lazy">
+          </div>
+          <div class="service-full-content">
+            <span class="section-tag-gold">Core Hospitality</span>
+            <h2 class="service-full-title">Restaurant Dining</h2>
+            <div class="slide-gold-line" style="width: 70px; margin-bottom: 1.25rem;"></div>
+            <p class="intro-body-p">
+              Immerse yourself in an inviting, luxurious dining sanctuary featuring authentic African culinary treasures. Our main chandelier hall blends evocative afro-jazz melodies with warm candlelight and courteous, discrete tableside service.
+            </p>
+            <div class="service-features-checklist">
+              <span class="service-chk-item">A la carte dining with multi-course pairing options</span>
+              <span class="service-chk-item">Firewood-infused Jollof and slow-simmered ancestral stews</span>
+              <span class="service-chk-item">Tableside carving and fresh mocktail/cocktail cart</span>
+            </div>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <button type="button" class="btn btn-gold" data-open-reservation data-service="Restaurant Dining">Reserve a Table</button>
+              <a href="#menu" class="btn btn-outline">Explore Dishes</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. Food Menu & Tasting -->
+        <article class="service-full-card reverse reveal-up" id="menu-service">
+          <div class="service-full-content">
+            <span class="section-tag-gold">Culinary Repertoire</span>
+            <h2 class="service-full-title">Curated Food Menu</h2>
+            <div class="slide-gold-line" style="width: 70px; margin-bottom: 1.25rem;"></div>
+            <p class="intro-body-p">
+              Our menu is an expansive celebration of regional African heritage—ranging from northern Nigerian tender beef suya to coastal seafood okra and decadent tropical baobab desserts.
+            </p>
+            <div class="service-features-checklist">
+              <span class="service-chk-item">Detailed allergen profiles and spice level indicators</span>
+              <span class="service-chk-item">Seasonal chef tasting menus and chef's specials</span>
+              <span class="service-chk-item">Authentic imported ingredients with farm-fresh local produce</span>
+            </div>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <a href="#menu" class="btn btn-gold">View Interactive Menu</a>
+              <button type="button" class="btn btn-outline" data-open-cart>Open Enquiry Cart</button>
+            </div>
+          </div>
+          <div class="service-full-media">
+            <img src="assets/images/hero-2.jpg" alt="Curated Food Menu" class="service-full-img" loading="lazy">
+          </div>
+        </article>
+
+        <!-- 3. Food Ordering & Enquiries -->
+        <article class="service-full-card reveal-up" id="ordering">
+          <div class="service-full-media">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80" alt="Food Ordering & Enquiries" class="service-full-img" loading="lazy" onerror="this.src='assets/images/hero-1.jpg'">
+          </div>
+          <div class="service-full-content">
+            <span class="section-tag-gold">Convenient & Direct</span>
+            <h2 class="service-full-title">Food Ordering & Enquiries</h2>
+            <div class="slide-gold-line" style="width: 70px; margin-bottom: 1.25rem;"></div>
+            <p class="intro-body-p">
+              We make it seamless for patrons to explore our dishes, assemble custom feast packages, and submit direct enquiries via our integrated Order Cart and WhatsApp concierge desk.
+            </p>
+            <div class="service-features-checklist">
+              <span class="service-chk-item">Instant WhatsApp order request generation with full itemization</span>
+              <span class="service-chk-item">Personalized spice adjustments and dietary accommodations</span>
+              <span class="service-chk-item">Fast confirmation from our restaurant manager within minutes</span>
+            </div>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <button type="button" class="btn btn-gold" data-open-cart>Build Order Enquiry</button>
+              <a href="https://wa.me/2348123456789" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold">Chat on WhatsApp</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. Table Reservations -->
+        <article class="service-full-card reverse reveal-up" id="reservations">
+          <div class="service-full-content">
+            <span class="section-tag-gold">Priority Seating</span>
+            <h2 class="service-full-title">Table Reservations</h2>
+            <div class="slide-gold-line" style="width: 70px; margin-bottom: 1.25rem;"></div>
+            <p class="intro-body-p">
+              Guarantee your preferred table for intimate dates, business dinners, or family celebrations. Choose between our bustling chandelier dining room, cozy booths, or scenic garden terrace.
+            </p>
+            <div class="service-features-checklist">
+              <span class="service-chk-item">Instant reservation request tracking and unique reference ID</span>
+              <span class="service-chk-item">Special occasion decor & customized welcome champagne upon request</span>
+              <span class="service-chk-item">Complimentary valet parking for reserved guests</span>
+            </div>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <button type="button" class="btn btn-gold" data-open-reservation data-service="Table Reservation">Book Table Now</button>
+              <a href="contact.html#reservation-section" class="btn btn-outline">Reservation Details</a>
+            </div>
+          </div>
+          <div class="service-full-media">
+            <img src="assets/images/hero-3.jpg" alt="Table Reservations at TOLEX" class="service-full-img" loading="lazy">
+          </div>
+        </article>
+
+        <!-- 5. Takeaway Services -->
+        <article class="service-full-card reveal-up" id="takeaway">
+          <div class="service-full-media">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" alt="Takeaway Services" class="service-full-img" loading="lazy" onerror="this.src='assets/images/hero-1.jpg'">
+          </div>
+          <div class="service-full-content">
+            <span class="section-tag-gold">Luxury at Home</span>
+            <h2 class="service-full-title">Takeaway & Express Pickup</h2>
+            <div class="slide-gold-line" style="width: 70px; margin-bottom: 1.25rem;"></div>
+            <p class="intro-body-p">
+              Enjoy the restaurant experience in the comfort of your home or office. Every takeaway meal is packaged in custom double-insulated, heat-retaining luxury containers to ensure food arrives piping hot and full of aroma.
+            </p>
+            <div class="service-features-checklist">
+              <span class="service-chk-item">Aroma-locking sealed packaging preserving smoky firewood tones</span>
+              <span class="service-chk-item">Curbside express handoff with zero wait time</span>
+              <span class="service-chk-item">Includes complimentary house condiments and cutlery</span>
+            </div>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <button type="button" class="btn btn-gold" data-open-cart>Order Takeaway</button>
+              <a href="contact.html" class="btn btn-outline">Pickup Inquiries</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6. Catering Services -->
+        <article class="service-full-card reverse reveal-up" id="catering">
+          <div class="service-full-content">
+            <span class="section-tag-gold">Grand Banquets</span>
+            <h2 class="service-full-title">Event & Wedding Catering</h2>
+            <div class="slide-gold-line" style="width: 70px; margin-bottom: 1.25rem;"></div>
+            <p class="intro-body-p">
+              Bring the culinary artistry of TOLEX to your wedding reception, milestone anniversary, or corporate gala. We provide complete turnkey catering solutions: on-site master chefs, live charcoal grill stations, gold tableware, and silver-service waitstaff.
+            </p>
+            <div class="service-features-checklist">
+              <span class="service-chk-item">Accommodating celebrations from 50 to 1,000+ distinguished guests</span>
+              <span class="service-chk-item">Live theatrical carving and Suya charcoal grilling stations</span>
+              <span class="service-chk-item">Dedicated banquet manager managing kitchen logistics from start to finish</span>
+            </div>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <a href="#catering-calc" class="btn btn-gold">Estimate Event Cost</a>
+              <button type="button" class="btn btn-outline" data-open-reservation data-service="Event Catering">Enquire for Event</button>
+            </div>
+          </div>
+          <div class="service-full-media">
+            <img src="assets/images/hero-4.jpg" alt="Event Catering Feast" class="service-full-img" loading="lazy">
+          </div>
+        </article>
+
+        <!-- 7. Private Dining and Celebrations -->
+        <article class="service-full-card reveal-up" id="private-dining">
+          <div class="service-full-media">
+            <img src="assets/images/hero-3.jpg" alt="Private Dining and VIP Lounge" class="service-full-img" loading="lazy">
+          </div>
+          <div class="service-full-content">
+            <span class="section-tag-gold">Exclusivity</span>
+            <h2 class="service-full-title">Private Dining & VIP Celebrations</h2>
+            <div class="slide-gold-line" style="width: 70px; margin-bottom: 1.25rem;"></div>
+            <p class="intro-body-p">
+              For moments demanding complete discretion and intimacy, our private VIP salons host 10 to 45 guests. Enjoy personalized menus printed with your host emblem, custom champagne receptions, and dedicated private waitstaff.
+            </p>
+            <div class="service-features-checklist">
+              <span class="service-chk-item">Private entrance and secluded VIP lounge areas</span>
+              <span class="service-chk-item">Customized 5-course tasting menu crafted directly with our Executive Chef</span>
+              <span class="service-chk-item">Full audiovisual capabilities for executive presentations & toasts</span>
+            </div>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <button type="button" class="btn btn-gold" data-open-reservation data-service="Private VIP Dining">Request VIP Salon</button>
+              <a href="contact.html" class="btn btn-outline">Speak to Concierge</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ==================== INTERACTIVE CATERING ESTIMATOR ==================== -->
+    <section class="section-spacing" id="catering-calc" style="background-color: var(--color-charcoal); border-top: 1px solid rgba(245, 197, 27, 0.2); border-bottom: 1px solid rgba(245, 197, 27, 0.2);">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag-gold">Instant Planning</span>
+          <h2 class="section-title">Event Catering <span class="text-gold">Estimator</span></h2>
+          <div class="gold-divider-center">
+            <span class="line"></span><span class="icon">✦</span><span class="line right"></span>
+          </div>
+          <p class="section-subtitle">
+            Configure your anticipated party size and preferred catering tier to see an estimated planning guide, then send your request directly to our banquet team.
+          </p>
+        </div>
+
+        <div class="catering-calc-box reveal-up">
+          <form id="cateringCalculatorForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="caterGuests">Estimated Guest Count: <strong id="caterGuestsDisplay" class="text-gold" style="font-size: 1.2rem;">50</strong> Guests</label>
+                <input type="range" id="caterGuests" min="20" max="400" step="10" value="50" style="width: 100%; accent-color: var(--color-gold); cursor: pointer; height: 8px;">
+                <div style="display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--color-warm-muted); margin-top: 0.35rem;">
+                  <span>20 Guests</span>
+                  <span>100</span>
+                  <span>250</span>
+                  <span>400+ Guests</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="caterPackage">Catering Package Tier</label>
+                <select id="caterPackage" class="form-control">
+                  <option value="silver">Silver Heritage (3 Mains, 2 Sides, Drinks — ₦12,000/guest)</option>
+                  <option value="gold" selected>Gold Royal Feast (5 Mains, 4 Sides, Suya Grill Station, Drinks — ₦18,500/guest)</option>
+                  <option value="royal">Emperor's VIP Banquet (Full Coastal Seafood, Carving, Desserts & Bar — ₦28,000/guest)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Calculation Output Card -->
+            <div style="background: var(--color-charcoal); border: 1px solid rgba(245, 197, 27, 0.3); border-radius: var(--radius-sm); padding: 1.75rem; margin: 2rem 0; text-align: center;">
+              <span style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-warm-muted); display: block; margin-bottom: 0.35rem;">Estimated Catering Guide:</span>
+              <span id="caterEstimatedTotal" style="font-family: var(--font-serif); font-size: 2.75rem; font-weight: 800; color: var(--color-gold); display: block;">₦925,000</span>
+              <p style="font-size: 0.82rem; color: var(--color-warm-muted); margin-top: 0.5rem;">
+                *Includes on-site culinary preparation, warming equipment, food presentation, and chef coordination. Final quotation will be refined based on venue logistics.
+              </p>
+            </div>
+
+            <button type="submit" class="btn btn-gold btn-lg w-100">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 0.5rem;"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.586 1.761.88 2.791.88 3.181 0 5.768-2.587 5.768-5.766.001-3.181-2.585-5.766-5.768-5.766zm9.969 5.766c0 5.514-4.486 10-10 10-1.748 0-3.385-.45-4.819-1.239l-5.181 1.355 1.378-5.034c-.879-1.488-1.378-3.219-1.378-5.082 0-5.514 4.486-10 10-10s10 4.486 10 10z"/></svg>
+              Send Catering Enquiry on WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== INTERACTIVE FOOD MENU EMBED ==================== -->
+    <section class="menu-section section-spacing" id="menu">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag-gold">Explore The Offerings</span>
+          <h2 class="section-title">The Complete <span class="text-gold">Culinary Menu</span></h2>
+          <div class="gold-divider-center">
+            <span class="line"></span><span class="icon">✦</span><span class="line right"></span>
+          </div>
+          <p class="section-subtitle">
+            Browse our full selection of African main dishes, soups, firewood rice, grills, and beverages. Click "Details" or add items to your enquiry.
+          </p>
+        </div>
+
+        <div class="menu-filter-controls-wrap reveal-up">
+          <div class="menu-search-bar">
+            <input type="text" id="menuSearchInput" class="menu-search-input" placeholder="Search dishes (e.g. Jollof, Egusi, Suya)...">
+            <span class="menu-search-icon">🔍</span>
+            <button type="button" id="clearMenuSearch" class="clear-search-btn">&times;</button>
+          </div>
+
+          <div class="menu-category-tabs" role="tablist">
+            <button type="button" class="menu-category-btn is-active" data-category="all">All Specialties</button>
+            <button type="button" class="menu-category-btn" data-category="rice">Rice Dishes</button>
+            <button type="button" class="menu-category-btn" data-category="soups">Soups & Swallow</button>
+            <button type="button" class="menu-category-btn" data-category="grilled">Grills & Suya</button>
+            <button type="button" class="menu-category-btn" data-category="mains">Main Dishes</button>
+            <button type="button" class="menu-category-btn" data-category="appetizers">Appetizers</button>
+            <button type="button" class="menu-category-btn" data-category="beverages">Beverages</button>
+            <button type="button" class="menu-category-btn" data-category="desserts">Desserts</button>
+          </div>
+        </div>
+
+        <div class="dishes-grid" id="menuDishesGrid">
+          <!-- Populated by js/main.js -->
+        </div>
+
+        <div id="menuNoResults" style="display: none; text-align: center; padding: 4rem 1rem;">
+          <p style="font-size: 1.25rem; color: var(--color-warm-muted); margin-bottom: 1rem;">No dishes match your selected filter or keyword.</p>
+          <button type="button" class="btn btn-outline-gold" onclick="document.querySelector('[data-category=all]').click(); document.getElementById('menuSearchInput').value='';">
+            Reset Menu Filters
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FINAL CTA ==================== -->
+    <section class="final-cta-section">
+      <div class="container">
+        <div class="final-cta-box reveal-up">
+          <span class="section-tag-gold">Host With Distinction</span>
+          <h2 class="final-cta-title">Planning an Extraordinary <span class="text-gold">Occasion?</span></h2>
+          <p class="final-cta-desc">
+            Speak directly with our events and reservations director to tailor an unforgettable African culinary experience.
+          </p>
+          <div class="final-cta-actions">
+            <button type="button" class="btn btn-gold btn-lg" data-open-reservation>Reserve a Table</button>
+            <a href="contact.html" class="btn btn-outline-gold btn-lg">Contact Concierge Desk</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="tolex-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <a href="index.html" aria-label="TOLEX RESTAURANT Home">
+            <img src="assets/logo/logo.svg" alt="TOLEX RESTAURANT" class="brand-logo-svg" width="220">
+          </a>
+          <p class="footer-brand-desc">
+            TOLEX RESTAURANT is a premier African dining destination dedicated to celebrating authentic culinary heritage, exquisite plating, and royal hospitality in an atmosphere of modern luxury.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li class="footer-link-item"><a href="index.html">Home</a></li>
+            <li class="footer-link-item"><a href="about.html">About Us</a></li>
+            <li class="footer-link-item"><a href="services.html">Our Services</a></li>
+            <li class="footer-link-item"><a href="contact.html">Contact Us</a></li>
+            <li class="footer-link-item"><a href="#catering-calc">Catering Estimator</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-links-list">
+            <li class="footer-link-item"><a href="#dining">Restaurant Dining</a></li>
+            <li class="footer-link-item"><a href="#private-dining">Private VIP Dining</a></li>
+            <li class="footer-link-item"><a href="#catering">Event Catering</a></li>
+            <li class="footer-link-item"><a href="#takeaway">Takeaway & Orders</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Contact & Hours</h4>
+          <div class="footer-contact-info-list">
+            <div class="footer-contact-item">
+              <span class="footer-contact-icon">📍</span>
+              <p class="footer-contact-text">Plot 14, Luxury Boulevard [Editable Address Placeholder]</p>
+            </div>
+            <div class="footer-contact-item">
+              <span class="footer-contact-icon">📞</span>
+              <p class="footer-contact-text">+234 (0) 800 000 TOLEX</p>
+            </div>
+            <div class="footer-hours-badge">
+              🕒 Mon–Sun: 11:30 AM – Late
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p class="footer-copy-text">
+          &copy; 2026 <span>TOLEX RESTAURANT</span>. All Rights Reserved. Luxury African Dining.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== TABLE RESERVATION MODAL ==================== -->
+  <div class="tolex-modal-backdrop" id="reservationModal" role="dialog" aria-modal="true" aria-labelledby="servResModalTitle">
+    <div class="tolex-modal-dialog">
+      <div class="modal-corner-ornament top-left"></div>
+      <div class="modal-corner-ornament top-right"></div>
+      <button type="button" class="modal-close-btn" data-close-modal aria-label="Close Reservation Modal">&times;</button>
+
+      <div class="modal-header-crest text-center" style="margin-bottom: 1.5rem;">
+        <img src="assets/icons/favicon.svg" alt="TOLEX Crest" width="48" style="margin: 0 auto 0.75rem auto;">
+        <span class="section-tag-gold">Royal Hospitality</span>
+        <h3 class="modal-title" id="servResModalTitle" style="font-size: 1.85rem; margin-top: 0.5rem;">Table Reservation Request</h3>
+      </div>
+
+      <form id="tableReservationForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="servResFullName">Full Name *</label>
+            <input type="text" id="servResFullName" name="name" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="servResPhone">Phone Number *</label>
+            <input type="tel" id="servResPhone" name="phone" class="form-control" placeholder="+234 or +1 ..." required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="servResEmail">Email Address *</label>
+            <input type="email" id="servResEmail" name="email" class="form-control" placeholder="name@domain.com" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="servResGuests">Number of Guests *</label>
+            <select id="servResGuests" name="guests" class="form-control" required>
+              <option value="1">1 Guest</option>
+              <option value="2" selected>2 Guests</option>
+              <option value="4">3 - 4 Guests</option>
+              <option value="8">5 - 8 Guests</option>
+              <option value="15">9+ Guests (VIP Salon)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="servResDate">Preferred Date *</label>
+            <input type="date" id="servResDate" name="date" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="servResTime">Preferred Time *</label>
+            <select id="servResTime" name="time" class="form-control" required>
+              <option value="12:00 PM">12:00 PM (Lunch)</option>
+              <option value="01:30 PM">01:30 PM</option>
+              <option value="06:30 PM">06:30 PM</option>
+              <option value="08:00 PM" selected>08:00 PM (Dinner)</option>
+              <option value="09:30 PM">09:30 PM</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="servResSeating">Seating Area</label>
+          <select id="servResSeating" name="seating" class="form-control">
+            <option value="Main Dining Room">Main Dining Room</option>
+            <option value="Private VIP Lounge">Private VIP Lounge</option>
+            <option value="Garden Terrace">Garden Terrace</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="resSpecialRequests">Special Requests / Occasion</label>
+          <textarea id="resSpecialRequests" name="special_requests" class="form-control" placeholder="Special requirements..."></textarea>
+        </div>
+
+        <div class="res-notice-box" style="background: rgba(245, 197, 27, 0.08); border: 1px solid rgba(245, 197, 27, 0.25); padding: 0.85rem; border-radius: var(--radius-sm); margin-bottom: 1.5rem; font-size: 0.82rem; color: var(--color-warm-muted);">
+          ⚠️ <strong>Notice:</strong> Submitting this request sends your preferred reservation time to our team. Your table is confirmed once approved by restaurant management.
+        </div>
+
+        <button type="submit" class="btn btn-gold btn-lg w-100">
+          Submit Table Reservation Request
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==================== ORDER CART DRAWER ==================== -->
+  <div class="cart-drawer-backdrop" id="cartDrawerBackdrop"></div>
+  <aside class="order-cart-drawer" id="orderCartDrawer" aria-label="Order Enquiry Cart">
+    <div class="cart-drawer-header">
+      <div style="display: flex; align-items: center; gap: 0.75rem;">
+        <span style="font-size: 1.4rem;">🛍️</span>
+        <h3 class="cart-drawer-title">Order Enquiry Cart</h3>
+      </div>
+      <button type="button" class="modal-close-btn" id="closeCartDrawerBtn" aria-label="Close Cart">&times;</button>
+    </div>
+    <div class="cart-drawer-empty-state" id="cartEmptyState">
+      <div style="font-size: 3rem; margin-bottom: 1rem; opacity: 0.6;">🍽️</div>
+      <h4 style="font-size: 1.25rem; color: var(--color-warm-white); margin-bottom: 0.5rem;">Your Cart is Empty</h4>
+      <p style="font-size: 0.9rem; margin-bottom: 1.5rem;">Explore dishes below and add them to build your enquiry.</p>
+      <a href="#menu" class="btn btn-gold btn-sm" onclick="window.tolexCart.closeCart()">Browse Food Menu</a>
+    </div>
+    <div class="cart-items-scroll-area" id="cartItemsList"></div>
+    <div class="cart-drawer-footer" id="cartCheckoutContainer" style="display: none;">
+      <div class="cart-subtotal-row">
+        <span class="subtotal-label">Estimated Total:</span>
+        <span class="subtotal-val" id="cartSubtotalAmount">₦0</span>
+      </div>
+      <div class="form-group" style="margin-bottom: 0.85rem;">
+        <input type="text" id="cartCustomerName" class="form-control" placeholder="Your Name">
+      </div>
+      <div class="form-group" style="margin-bottom: 0.85rem;">
+        <select id="cartOrderType" class="form-control">
+          <option value="Dine-in / Table Service">Dine-in / Table Service</option>
+          <option value="Takeaway / Pickup">Takeaway / Express Pickup</option>
+          <option value="Event Catering Enquiry">Event Catering Enquiry</option>
+        </select>
+      </div>
+      <div class="form-group" style="margin-bottom: 1.25rem;">
+        <input type="text" id="cartSpecialInstructions" class="form-control" placeholder="Special instructions">
+      </div>
+      <button type="button" class="btn btn-gold w-100" id="cartWhatsAppCheckoutBtn">
+        Send Order Enquiry via WhatsApp
+      </button>
+    </div>
+  </aside>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-to-top-btn" id="backToTopBtn" aria-label="Back to Top">↑</button>
+
+  <!-- SCRIPTS -->
+  <script src="js/menu.js"></script>
+  <script src="js/reservations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

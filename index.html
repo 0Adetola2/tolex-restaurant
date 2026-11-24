@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOLEX RESTAURANT — Authentic Luxury African Dining</title>
+  <meta name="description" content="Experience the taste of Africa at TOLEX RESTAURANT. Authentic African flavours, luxurious dining ambiance, and exceptional royal hospitality.">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="site-wrapper">
+
+  <!-- ==================== HEADER & NAVIGATION ==================== -->
+  <header class="tolex-header" id="mainHeader">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo-link" aria-label="TOLEX RESTAURANT Home">
+        <img src="assets/logo/logo.svg" alt="TOLEX RESTAURANT" class="brand-logo-svg" width="220" height="52">
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav-menu" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link is-active">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Our Services</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+      </nav>
+
+      <!-- Right Navigation Actions -->
+      <div class="nav-right-actions">
+        <!-- Order Enquiry Cart Toggle -->
+        <button type="button" class="cart-toggle-btn" data-open-cart aria-label="Open Order Enquiry Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-2z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="cart-counter-badge cart-counter-badge">0</span>
+        </button>
+
+        <!-- Reservation CTA Button -->
+        <button type="button" class="btn btn-gold btn-sm btn-reservation-header" data-open-reservation>
+          Reserve a Table
+        </button>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open Mobile Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Mobile Navigation">
+    <div class="mobile-nav-header">
+      <img src="assets/logo/logo.svg" alt="TOLEX RESTAURANT" width="180">
+      <button type="button" class="close-mobile-nav" id="closeMobileNav" aria-label="Close Mobile Menu">&times;</button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link is-active">Home</a>
+      <a href="about.html" class="mobile-nav-link">About Us</a>
+      <a href="services.html" class="mobile-nav-link">Our Services</a>
+      <a href="contact.html" class="mobile-nav-link">Contact Us</a>
+    </div>
+    <div class="mobile-nav-footer">
+      <button type="button" class="btn btn-gold w-100" data-open-reservation>
+        Reserve a Table
+      </button>
+      <button type="button" class="btn btn-outline-gold w-100" data-open-cart>
+        Order Enquiry Cart
+      </button>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ==================== SIGNATURE HERO SLIDER (Slider Revolution Style) ==================== -->
+    <section class="hero-slider-section" aria-label="Signature Food & Experience Slider">
+      <div class="hero-slider-container">
+
+        <!-- Decorative Botanical Corner Filigrees (matching reference) -->
+        <img src="assets/icons/corner-ornament.svg" class="hero-corner-filigree top-left" alt="" aria-hidden="true">
+        <img src="assets/icons/corner-ornament.svg" class="hero-corner-filigree top-right" alt="" aria-hidden="true">
+        <img src="assets/icons/corner-ornament.svg" class="hero-corner-filigree bottom-left" alt="" aria-hidden="true">
+        <img src="assets/icons/corner-ornament.svg" class="hero-corner-filigree bottom-right" alt="" aria-hidden="true">
+
+        <!-- SLIDE 1: WELCOME TO TOLEX -->
+        <div class="hero-slide is-active" data-index="0" role="tabpanel" aria-label="Slide 1 of 4">
+          <div class="slide-bg-wrapper">
+            <img src="assets/images/hero-1.jpg" alt="Exquisite African Culinary Feast Spread" class="slide-bg-img" loading="eager">
+          </div>
+          <div class="slide-overlay"></div>
+          <div class="container slide-content-container">
+            <div class="slide-text-wrapper">
+              <span class="slide-badge">Welcome to TOLEX Restaurant</span>
+              <h1 class="slide-headline">Experience the <span class="gold-word">Taste of Africa</span>.</h1>
+              <div class="slide-gold-line"></div>
+              <p class="slide-description">
+                Discover authentic African flavours, beautifully prepared and served with exceptional hospitality in an atmosphere of refined elegance.
+              </p>
+              <div class="slide-cta-group">
+                <a href="#menu" class="btn btn-gold btn-lg">Explore Our Menu</a>
+                <button type="button" class="btn btn-outline btn-lg" data-open-reservation>Reserve a Table</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SLIDE 2: AUTHENTIC AFRICAN CUISINE -->
+        <div class="hero-slide" data-index="1" role="tabpanel" aria-label="Slide 2 of 4">
+          <div class="slide-bg-wrapper">
+            <img src="assets/images/hero-2.jpg" alt="Authentic African Egusi and Pounded Yam" class="slide-bg-img" loading="lazy">
+          </div>
+          <div class="slide-overlay"></div>
+          <div class="container slide-content-container">
+            <div class="slide-text-wrapper">
+              <span class="slide-badge">Authentic Culinary Heritage</span>
+              <h2 class="slide-headline">Authentic Flavours. <span class="gold-word">Unforgettable Moments</span>.</h2>
+              <div class="slide-gold-line"></div>
+              <p class="slide-description">
+                From traditional favourites to signature specialties, every meal celebrates the richness of African cuisine prepared with time-honoured culinary mastery.
+              </p>
+              <div class="slide-cta-group">
+                <a href="#menu" class="btn btn-gold btn-lg">Discover Our Dishes</a>
+                <a href="services.html#menu" class="btn btn-outline btn-lg">View Full Menu</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SLIDE 3: PREMIUM DINING -->
+        <div class="hero-slide" data-index="2" role="tabpanel" aria-label="Slide 3 of 4">
+          <div class="slide-bg-wrapper">
+            <img src="assets/images/hero-3.jpg" alt="Luxury African Dining Room and Guests" class="slide-bg-img" loading="lazy">
+          </div>
+          <div class="slide-overlay"></div>
+          <div class="container slide-content-container">
+            <div class="slide-text-wrapper">
+              <span class="slide-badge">Sophisticated Ambiance</span>
+              <h2 class="slide-headline">Where Great Food Meets <span class="gold-word">Exceptional Dining</span>.</h2>
+              <div class="slide-gold-line"></div>
+              <p class="slide-description">
+                Enjoy a refined dining atmosphere, delicious meals, and hospitality that makes every visit special, memorable, and profoundly comforting.
+              </p>
+              <div class="slide-cta-group">
+                <a href="about.html#experience" class="btn btn-gold btn-lg">Our Experience</a>
+                <a href="contact.html" class="btn btn-outline btn-lg">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SLIDE 4: SPECIAL MOMENTS -->
+        <div class="hero-slide" data-index="3" role="tabpanel" aria-label="Slide 4 of 4">
+          <div class="slide-bg-wrapper">
+            <img src="assets/images/hero-4.jpg" alt="Celebratory African Dining Feast" class="slide-bg-img" loading="lazy">
+          </div>
+          <div class="slide-overlay"></div>
+          <div class="container slide-content-container">
+            <div class="slide-text-wrapper">
+              <span class="slide-badge">Celebrations & Gatherings</span>
+              <h2 class="slide-headline">Make Every Meal a <span class="gold-word">Celebration</span>.</h2>
+              <div class="slide-gold-line"></div>
+              <p class="slide-description">
+                Gather with family, friends, and loved ones over exceptional food and memorable dining experiences crafted to honour life's finest milestones.
+              </p>
+              <div class="slide-cta-group">
+                <button type="button" class="btn btn-gold btn-lg" data-open-reservation>Book a Table</button>
+                <a href="services.html" class="btn btn-outline btn-lg">Explore More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SLIDER CONTROLS: Progress Bar -->
+        <div class="slider-progress-bar-wrap">
+          <div class="slider-progress-fill"></div>
+        </div>
+
+        <!-- SLIDER CONTROLS: Bottom Bar with Counter & Indicators -->
+        <div class="slider-bottom-bar">
+          <div class="slider-counter">
+            <span class="slider-counter-current">01</span> / <span class="slider-counter-total">04</span>
+          </div>
+          <div class="slider-indicators" role="tablist" aria-label="Slide Selection">
+            <button class="slider-indicator-item is-active" role="tab" aria-selected="true" data-slide="0">
+              <span class="ind-dot"></span>
+              <span class="ind-text">Welcome</span>
+            </button>
+            <button class="slider-indicator-item" role="tab" aria-selected="false" data-slide="1">
+              <span class="ind-dot"></span>
+              <span class="ind-text">Flavours</span>
+            </button>
+            <button class="slider-indicator-item" role="tab" aria-selected="false" data-slide="2">
+              <span class="ind-dot"></span>
+              <span class="ind-text">Dining</span>
+            </button>
+            <button class="slider-indicator-item" role="tab" aria-selected="false" data-slide="3">
+              <span class="ind-dot"></span>
+              <span class="ind-text">Moments</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- SLIDER CONTROLS: Nav Arrows -->
+        <div class="slider-nav-arrows">
+          <button type="button" class="slider-nav-btn slider-nav-prev" aria-label="Previous Slide">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </button>
+          <button type="button" class="slider-nav-btn slider-nav-next" aria-label="Next Slide">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== INTRODUCTION SECTION ==================== -->
+    <section class="intro-section section-spacing">
+      <div class="container">
+        <div class="intro-grid">
+          <!-- Left Media Column -->
+          <div class="intro-media-col reveal-up">
+            <div class="intro-img-card">
+              <img src="assets/images/hero-2.jpg" alt="Authentic African Culinary Craftsmanship" loading="lazy">
+              <!-- Golden Crest Floating Badge -->
+              <div class="intro-floating-badge">
+                <img src="assets/icons/favicon.svg" alt="TOLEX Crest" class="intro-badge-icon">
+                <div class="intro-badge-text">
+                  <span>Authentic African</span>
+                  Fine Dining Heritage
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Content Column -->
+          <div class="intro-content-col reveal-up">
+            <span class="section-tag-gold">The Soul of African Hospitality</span>
+            <h2 class="section-title">Welcome to <span class="text-gold">TOLEX RESTAURANT</span></h2>
+            <div class="slide-gold-line" style="width: 80px; margin-bottom: 1.5rem;"></div>
+            <p class="intro-lead">
+              At TOLEX RESTAURANT, we elevate authentic African dining into an unforgettable sensory journey where rich traditions meet contemporary luxury.
+            </p>
+            <p class="intro-body-p">
+              Every recipe we serve is deeply anchored in time-honoured culinary roots. From slow-simmered rich native soups to aromatic firewood-infused rice and delicately spiced open-flame grills, our master culinary brigade crafts each dish with reverence, passion, and uncompromising quality.
+            </p>
+
+            <div class="intro-features-list">
+              <div class="intro-feat-item">
+                <span class="intro-feat-icon">◆</span>
+                <div>
+                  <h4 class="intro-feat-title">Ancestral Recipes</h4>
+                  <p class="intro-feat-sub">True authentic seasonings without shortcuts.</p>
+                </div>
+              </div>
+              <div class="intro-feat-item">
+                <span class="intro-feat-icon">◆</span>
+                <div>
+                  <h4 class="intro-feat-title">Royal Hospitality</h4>
+                  <p class="intro-feat-sub">Warm, attentive, and personalized dining care.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="intro-cta-row">
+              <a href="about.html" class="btn btn-gold">Read Our Story</a>
+              <a href="services.html" class="btn btn-outline" style="margin-left: 1rem;">Explore Services</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FOOD CATEGORIES (Visual Highlight with Green Leaves) ==================== -->
+    <section class="categories-section section-spacing" id="categories">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag-gold">Culinary Repertoire</span>
+          <h2 class="section-title">Explore Our <span class="text-gold">Food Categories</span></h2>
+          <div class="gold-divider-center">
+            <span class="line"></span>
+            <span class="icon">✦</span>
+            <span class="line right"></span>
+          </div>
+          <p class="section-subtitle">
+            Immerse yourself in our meticulously curated culinary selections, featuring iconic flavours from across West and Central Africa.
+          </p>
+        </div>
+
+        <div class="categories-grid">
+          <!-- 1. African Main Dishes -->
+          <div class="category-luxury-card reveal-up">
+            <div class="category-circle-wrapper">
+              <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=400&q=80" alt="African Main Dishes" class="category-circle-img" onerror="this.src='assets/images/hero-2.jpg'">
+              <img src="assets/icons/leaf-accent.svg" class="category-leaf-accent" alt="" aria-hidden="true">
+            </div>
+            <h3 class="category-card-title">African Main Dishes</h3>
+            <p class="category-card-desc">Hearty ancestral stews, herbal broths, and tender braised heritage delicacies.</p>
+            <a href="#menu" class="category-explore-link" onclick="document.querySelector('[data-category=mains]')?.click()">Explore Dishes &rarr;</a>
+          </div>
+
+          <!-- 2. Rice Specialties -->
+          <div class="category-luxury-card reveal-up">
+            <div class="category-circle-wrapper">
+              <img src="https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=400&q=80" alt="Rice Specialties" class="category-circle-img" onerror="this.src='assets/images/hero-1.jpg'">
+              <img src="assets/icons/leaf-accent.svg" class="category-leaf-accent" alt="" aria-hidden="true">
+            </div>
+            <h3 class="category-card-title">Rice Specialties</h3>
+            <p class="category-card-desc">Smoky firewood Jollof, aromatic unpolished Ofada, and golden savoury fried rice.</p>
+            <a href="#menu" class="category-explore-link" onclick="document.querySelector('[data-category=rice]')?.click()">Explore Dishes &rarr;</a>
+          </div>
+
+          <!-- 3. Soups and Swallow -->
+          <div class="category-luxury-card reveal-up">
+            <div class="category-circle-wrapper">
+              <img src="assets/images/hero-2.jpg" alt="Soups and Swallow" class="category-circle-img">
+              <img src="assets/icons/leaf-accent.svg" class="category-leaf-accent" alt="" aria-hidden="true">
+            </div>
+            <h3 class="category-card-title">Soups and Swallow</h3>
+            <p class="category-card-desc">Hand-ground melon Egusi, coastal Seafood Okra, and silky hand-pounded yam.</p>
+            <a href="#menu" class="category-explore-link" onclick="document.querySelector('[data-category=soups]')?.click()">Explore Dishes &rarr;</a>
+          </div>
+
+          <!-- 4. Grilled Delicacies -->
+          <div class="category-luxury-card reveal-up">
+            <div class="category-circle-wrapper">
+              <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=400&q=80" alt="Grilled Delicacies" class="category-circle-img" onerror="this.src='assets/images/hero-1.jpg'">
+              <img src="assets/icons/leaf-accent.svg" class="category-leaf-accent" alt="" aria-hidden="true">
+            </div>
+            <h3 class="category-card-title">Grilled Delicacies</h3>
+            <p class="category-card-desc">Prime beef suya skewers, whole flame-roasted croaker fish, and spicy goat asun.</p>
+            <a href="#menu" class="category-explore-link" onclick="document.querySelector('[data-category=grilled]')?.click()">Explore Dishes &rarr;</a>
+          </div>
+
+          <!-- 5. Appetizers -->
+          <div class="category-luxury-card reveal-up">
+            <div class="category-circle-wrapper">
+              <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=400&q=80" alt="Appetizers & Small Chops" class="category-circle-img" onerror="this.src='assets/images/hero-1.jpg'">
+              <img src="assets/icons/leaf-accent.svg" class="category-leaf-accent" alt="" aria-hidden="true">
+            </div>
+            <h3 class="category-card-title">Appetizers & Chops</h3>
+            <p class="category-card-desc">Artisanal golden puff-puff, flaky gourmet beef pies, and grand small chops platters.</p>
+            <a href="#menu" class="category-explore-link" onclick="document.querySelector('[data-category=appetizers]')?.click()">Explore Dishes &rarr;</a>
+          </div>
+
+          <!-- 6. Craft Beverages -->
+          <div class="category-luxury-card reveal-up">
+            <div class="category-circle-wrapper">
+              <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=400&q=80" alt="Beverages & Cocktails" class="category-circle-img" onerror="this.src='assets/images/hero-3.jpg'">
+              <img src="assets/icons/leaf-accent.svg" class="category-leaf-accent" alt="" aria-hidden="true">
+            </div>
+            <h3 class="category-card-title">Craft Beverages</h3>
+            <p class="category-card-desc">Signature botanical Chapman, spiced organic Zobo elixir, and fine vintage cellar wines.</p>
+            <a href="#menu" class="category-explore-link" onclick="document.querySelector('[data-category=beverages]')?.click()">Explore Dishes &rarr;</a>
+          </div>
+
+          <!-- 7. Desserts -->
+          <div class="category-luxury-card reveal-up">
+            <div class="category-circle-wrapper">
+              <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=400&q=80" alt="Desserts" class="category-circle-img" onerror="this.src='assets/images/hero-1.jpg'">
+              <img src="assets/icons/leaf-accent.svg" class="category-leaf-accent" alt="" aria-hidden="true">
+            </div>
+            <h3 class="category-card-title">Decadent Desserts</h3>
+            <p class="category-card-desc">Baobab and passionfruit silk tarts, tropical coconut creams, and sweet finishes.</p>
+            <a href="#menu" class="category-explore-link" onclick="document.querySelector('[data-category=desserts]')?.click()">Explore Dishes &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== POPULAR DISHES & INTERACTIVE MENU ==================== -->
+    <section class="menu-section section-spacing" id="menu">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag-gold">Signature Creations</span>
+          <h2 class="section-title">Popular <span class="text-gold">Dining Dishes</span></h2>
+          <div class="gold-divider-center">
+            <span class="line"></span>
+            <span class="icon">✦</span>
+            <span class="line right"></span>
+          </div>
+          <p class="section-subtitle">
+            Explore our guests' most beloved dishes. Click "View Details" to explore ingredients and flavor profiles, or add items directly to your enquiry order.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="menu-filter-controls-wrap reveal-up">
+          <!-- Search Bar -->
+          <div class="menu-search-bar">
+            <input type="text" id="menuSearchInput" class="menu-search-input" placeholder="Search dishes by name or ingredients (e.g., Jollof, Egusi, Suya)..." aria-label="Search dishes">
+            <span class="menu-search-icon">🔍</span>
+            <button type="button" id="clearMenuSearch" class="clear-search-btn" aria-label="Clear Search">&times;</button>
+          </div>
+
+          <!-- Category Filter Tabs -->
+          <div class="menu-category-tabs" role="tablist">
+            <button type="button" class="menu-category-btn is-active" data-category="all">All Specialties</button>
+            <button type="button" class="menu-category-btn" data-category="rice">Rice Dishes</button>
+            <button type="button" class="menu-category-btn" data-category="soups">Soups & Swallow</button>
+            <button type="button" class="menu-category-btn" data-category="grilled">Grills & Suya</button>
+            <button type="button" class="menu-category-btn" data-category="mains">Main Dishes</button>
+            <button type="button" class="menu-category-btn" data-category="appetizers">Appetizers</button>
+            <button type="button" class="menu-category-btn" data-category="beverages">Beverages</button>
+            <button type="button" class="menu-category-btn" data-category="desserts">Desserts</button>
+          </div>
+        </div>
+
+        <!-- Dynamic Menu Dishes Grid (Rendered by js/main.js) -->
+        <div class="dishes-grid" id="menuDishesGrid">
+          <!-- Injected via JavaScript -->
+        </div>
+
+        <!-- Empty State -->
+        <div id="menuNoResults" style="display: none; text-align: center; padding: 4rem 1rem;">
+          <p style="font-size: 1.25rem; color: var(--color-warm-muted); margin-bottom: 1rem;">No dishes match your selected filter or search keyword.</p>
+          <button type="button" class="btn btn-outline-gold" onclick="document.querySelector('[data-category=all]').click(); document.getElementById('menuSearchInput').value='';">
+            Reset Filters
+          </button>
+        </div>
+
+        <!-- Pricing Disclosure Note -->
+        <div class="pricing-disclaimer-box text-center" style="margin-top: 3.5rem; color: var(--color-warm-muted); font-size: 0.85rem;">
+          <p><em>*Note: Displayed menu prices represent standard dining placeholders and are easily editable by the restaurant. To receive current seasonal rates or place custom catering orders, click Add to Enquiry or contact our concierge.</em></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== WHY CHOOSE US ==================== -->
+    <section class="why-us-section section-spacing">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag-gold">The TOLEX Standard</span>
+          <h2 class="section-title">Why Dine With <span class="text-gold">TOLEX RESTAURANT</span></h2>
+          <div class="gold-divider-center">
+            <span class="line"></span>
+            <span class="icon">✦</span>
+            <span class="line right"></span>
+          </div>
+          <p class="section-subtitle">
+            We are dedicated to presenting African gastronomy on a world-class luxury stage through culinary precision and genuine warmth.
+          </p>
+        </div>
+
+        <div class="why-us-grid">
+          <!-- 1 -->
+          <div class="why-us-card reveal-up">
+            <div class="why-us-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <h3 class="why-us-title">Authentic African Cuisine</h3>
+            <p class="why-us-desc">
+              Every dish is created from regional African traditions, preserving ancestral flavor integrity, unadulterated spices, and time-honoured techniques.
+            </p>
+          </div>
+
+          <!-- 2 -->
+          <div class="why-us-card reveal-up">
+            <div class="why-us-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+            </div>
+            <h3 class="why-us-title">Fresh Ingredients</h3>
+            <p class="why-us-desc">
+              We source organic locally grown produce and premium African staples daily to guarantee exquisite freshness, aroma, and vibrant nutrition.
+            </p>
+          </div>
+
+          <!-- 3 -->
+          <div class="why-us-card reveal-up">
+            <div class="why-us-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+            <h3 class="why-us-title">Exceptional Hospitality</h3>
+            <p class="why-us-desc">
+              Experience the legendary warmth of African hosting, where every guest is welcomed as royalty with attentive, discrete, and personalized service.
+            </p>
+          </div>
+
+          <!-- 4 -->
+          <div class="why-us-card reveal-up">
+            <div class="why-us-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+            </div>
+            <h3 class="why-us-title">Beautiful Dining Experience</h3>
+            <p class="why-us-desc">
+              Indulge in a cinematic atmosphere enriched with warm golden chandelier illumination, acoustic African melodies, and dark matte luxury aesthetics.
+            </p>
+          </div>
+
+          <!-- 5 -->
+          <div class="why-us-card reveal-up">
+            <div class="why-us-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 13.87A8 8 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 8 8 0 0 1 18 13.87V21H6Z"/></svg>
+            </div>
+            <h3 class="why-us-title">Quality Food Preparation</h3>
+            <p class="why-us-desc">
+              Our kitchens operate under the highest international hygiene and culinary standards, led by veteran master chefs with decades of experience.
+            </p>
+          </div>
+
+          <!-- 6 -->
+          <div class="why-us-card reveal-up">
+            <div class="why-us-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+            </div>
+            <h3 class="why-us-title">Customer Satisfaction</h3>
+            <p class="why-us-desc">
+              From first greeting to farewell, our supreme focus is delivering an enchanting culinary journey that leaves you thoroughly satisfied and eager to return.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== RESTAURANT EXPERIENCE (Split Layout) ==================== -->
+    <section class="experience-section section-spacing">
+      <div class="container">
+        <div class="experience-grid">
+          <!-- Text Content -->
+          <div class="experience-content reveal-up">
+            <span class="section-tag-gold">Atmosphere & Ambiance</span>
+            <h2 class="section-title">An Unrivalled <span class="text-gold">Atmosphere</span></h2>
+            <div class="slide-gold-line" style="width: 80px; margin-bottom: 1.5rem;"></div>
+            <p class="experience-desc">
+              Stepping into TOLEX RESTAURANT is an invitation into an evocative world where modern architectural luxury honors the cultural soul of Africa.
+            </p>
+
+            <div class="experience-highlights">
+              <div class="exp-highlight-item">
+                <span class="exp-highlight-icon">✓</span>
+                <div class="exp-highlight-text">
+                  <strong>Bespoke Interior Aesthetics</strong>
+                  <span>Dark charcoal stone, gold fretwork wall panels, and intimate private dining alcoves.</span>
+                </div>
+              </div>
+              <div class="exp-highlight-item">
+                <span class="exp-highlight-icon">✓</span>
+                <div class="exp-highlight-text">
+                  <strong>Acoustic Harmony</strong>
+                  <span>Soft afro-jazz and ambient instrumental rhythms curated to accompany fine dining conversation.</span>
+                </div>
+              </div>
+              <div class="exp-highlight-item">
+                <span class="exp-highlight-icon">✓</span>
+                <div class="exp-highlight-text">
+                  <strong>Sommelier & Mixology Cellar</strong>
+                  <span>Curated cellar pairing international fine wines with bold African culinary spices.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="exp-actions">
+              <button type="button" class="btn btn-gold" data-open-reservation>Reserve Your Table</button>
+              <a href="about.html#experience" class="btn btn-outline" style="margin-left: 1rem;">View Dining Spaces</a>
+            </div>
+          </div>
+
+          <!-- Large Photograph Media -->
+          <div class="experience-media reveal-up">
+            <img src="assets/images/hero-3.jpg" alt="TOLEX RESTAURANT Ambiance and Interior" class="experience-main-img" loading="lazy">
+            <div class="experience-floating-quote">
+              <p class="floating-quote-text">
+                "Dining here is an emotional experience. The lighting, aromas, and hospitable spirit create genuine magic."
+              </p>
+              <span class="floating-quote-author">— Haute Gastronomy Review</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SPECIAL SERVICES PREVIEW ==================== -->
+    <section class="services-preview-section section-spacing">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag-gold">What We Offer</span>
+          <h2 class="section-title">Special <span class="text-gold">Hospitality Services</span></h2>
+          <div class="gold-divider-center">
+            <span class="line"></span>
+            <span class="icon">✦</span>
+            <span class="line right"></span>
+          </div>
+          <p class="section-subtitle">
+            Beyond everyday dining, TOLEX RESTAURANT provides premier culinary solutions tailored for every occasion.
+          </p>
+        </div>
+
+        <div class="services-preview-grid">
+          <!-- 1 -->
+          <div class="service-preview-card reveal-up">
+            <div class="service-preview-img-wrap">
+              <img src="assets/images/hero-1.jpg" alt="Restaurant Dining" class="service-preview-img" loading="lazy">
+            </div>
+            <div class="service-preview-body">
+              <h3 class="service-preview-title">Restaurant Dining</h3>
+              <p class="service-preview-desc">An inviting dining sanctuary featuring delicious authentic African cuisine, exquisite plating, and attentive tableside hospitality.</p>
+              <a href="services.html#dining" class="category-explore-link">Learn More &rarr;</a>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="service-preview-card reveal-up">
+            <div class="service-preview-img-wrap">
+              <img src="assets/images/hero-2.jpg" alt="Private Dining & VIP" class="service-preview-img" loading="lazy">
+            </div>
+            <div class="service-preview-body">
+              <h3 class="service-preview-title">Private VIP Dining</h3>
+              <p class="service-preview-desc">Exclusive private salon rooms with custom tasting menus for executive meetings, birthdays, and high-profile family dinners.</p>
+              <a href="services.html#private-dining" class="category-explore-link">Learn More &rarr;</a>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="service-preview-card reveal-up">
+            <div class="service-preview-img-wrap">
+              <img src="assets/images/hero-4.jpg" alt="Event & Wedding Catering" class="service-preview-img" loading="lazy">
+            </div>
+            <div class="service-preview-body">
+              <h3 class="service-preview-title">Event & Wedding Catering</h3>
+              <p class="service-preview-desc">Bespoke African banquet feasts for weddings, corporate galas, and diplomatic receptions with complete on-site culinary brigades.</p>
+              <a href="services.html#catering" class="category-explore-link">Learn More &rarr;</a>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="service-preview-card reveal-up">
+            <div class="service-preview-img-wrap">
+              <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80" alt="Takeaway & Order Enquiries" class="service-preview-img" loading="lazy" onerror="this.src='assets/images/hero-1.jpg'">
+            </div>
+            <div class="service-preview-body">
+              <h3 class="service-preview-title">Takeaway & Orders</h3>
+              <p class="service-preview-desc">Carefully packaged in premium insulated containers preserving temperature and smoky firewood aromatics for luxury home dining.</p>
+              <a href="services.html#takeaway" class="category-explore-link">Learn More &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FOOD GALLERY WITH LIGHTBOX ==================== -->
+    <section class="gallery-section section-spacing">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag-gold">Visual Feast</span>
+          <h2 class="section-title">The <span class="text-gold">Food & Ambiance Gallery</span></h2>
+          <div class="gold-divider-center">
+            <span class="line"></span>
+            <span class="icon">✦</span>
+            <span class="line right"></span>
+          </div>
+          <p class="section-subtitle">
+            A glimpse into the artistry, texture, and refined aesthetic of TOLEX RESTAURANT. Click any photograph to view in full resolution.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item reveal-up" data-gallery-item data-img="assets/images/hero-1.jpg" data-title="Grand African Banquet Feast" data-desc="Succulent flame-grilled chicken, Jollof rice, golden plantains, and prime beef suya.">
+            <img src="assets/images/hero-1.jpg" alt="Grand African Feast Spread" class="gallery-item-img" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="gallery-cat-tag">Signature Spread</span>
+              <h4 class="gallery-item-title">Grand African Feast</h4>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal-up" data-gallery-item data-img="assets/images/hero-2.jpg" data-title="Royal Egusi & Pounded Yam" data-desc="Slow-braised melon seeds, goat meat, and silky pounded yam with 24k gold leaf.">
+            <img src="assets/images/hero-2.jpg" alt="Royal Egusi and Pounded Yam" class="gallery-item-img" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="gallery-cat-tag">Authentic Soups</span>
+              <h4 class="gallery-item-title">Royal Egusi & Pounded Yam</h4>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal-up" data-gallery-item data-img="assets/images/hero-3.jpg" data-title="Main Dining Hall" data-desc="Warm amber chandelier lighting, dark charcoal stone, and fine wine pairings.">
+            <img src="assets/images/hero-3.jpg" alt="Main Dining Room Ambiance" class="gallery-item-img" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="gallery-cat-tag">Interior Ambiance</span>
+              <h4 class="gallery-item-title">Main Dining Room</h4>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal-up" data-gallery-item data-img="assets/images/hero-4.jpg" data-title="Celebration Moments" data-desc="Memorable celebratory dinners shared among family, dignitaries, and cherished friends.">
+            <img src="assets/images/hero-4.jpg" alt="Celebration Dining Table" class="gallery-item-img" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="gallery-cat-tag">Hospitality</span>
+              <h4 class="gallery-item-title">Celebration Moments</h4>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal-up" data-gallery-item data-img="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=800&q=80" data-title="Botanical Mixology" data-desc="House crafted cocktails featuring exotic bitters and fresh organic hibiscus.">
+            <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80" alt="Botanical Mixology Cocktail" class="gallery-item-img" loading="lazy" onerror="this.src='assets/images/hero-3.jpg'">
+            <div class="gallery-item-overlay">
+              <span class="gallery-cat-tag">Craft Cocktails</span>
+              <h4 class="gallery-item-title">Botanical Mixology</h4>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal-up" data-gallery-item data-img="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80" data-title="Open Flame Charcoal Grill" data-desc="Master grillers searing seasoned beef tenderloin in traditional northern Yaji spices.">
+            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80" alt="Charcoal Grill" class="gallery-item-img" loading="lazy" onerror="this.src='assets/images/hero-1.jpg'">
+            <div class="gallery-item-overlay">
+              <span class="gallery-cat-tag">Artisanal Grill</span>
+              <h4 class="gallery-item-title">Charcoal Flame Mastery</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CUSTOMER TESTIMONIALS SLIDER ==================== -->
+    <section class="testimonials-section section-spacing">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag-gold">Guest Reflections</span>
+          <h2 class="section-title">Words from <span class="text-gold">Our Patrons</span></h2>
+          <div class="gold-divider-center">
+            <span class="line"></span>
+            <span class="icon">✦</span>
+            <span class="line right"></span>
+          </div>
+          <p class="section-subtitle">
+            Read what esteemed diners and culinary connoisseurs say about their experience at TOLEX RESTAURANT.
+          </p>
+        </div>
+
+        <div class="testimonials-slider reveal-up">
+          <!-- Slide 1 -->
+          <div class="testimonial-card is-active">
+            <div class="test-stars-row">★★★★★</div>
+            <blockquote class="test-quote-text">
+              "TOLEX RESTAURANT has completely redefined African dining. The firewood smoky note in the Jollof Rice Royale transported me home, while the hospitality and ambiance rival the finest Michelin-starred establishments in Paris and London."
+            </blockquote>
+            <div class="test-author-info">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80" alt="Dr. Adebayo Adeleke" class="test-avatar" onerror="this.src='assets/icons/favicon.svg'">
+              <div>
+                <h4 class="test-name">Dr. Adebayo Adeleke</h4>
+                <p class="test-role">Executive Patron & Culinary Enthusiast</p>
+                <p class="test-fav-dish">Favorite: Jollof Rice Royale & Prime Suya</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="testimonial-card">
+            <div class="test-stars-row">★★★★★</div>
+            <blockquote class="test-quote-text">
+              "From the moment you step through the grand entrance, the atmosphere is intoxicating. The Seafood Okra Deluxe with giant tiger prawns and blue crab is easily the best in the continent. Truly unforgettable hospitality."
+            </blockquote>
+            <div class="test-author-info">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80" alt="Folashade Morgan" class="test-avatar" onerror="this.src='assets/icons/favicon.svg'">
+              <div>
+                <h4 class="test-name">Folashade Morgan</h4>
+                <p class="test-role">International Event Director & Food Critic</p>
+                <p class="test-fav-dish">Favorite: Seafood Okra Deluxe</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="testimonial-card">
+            <div class="test-stars-row">★★★★★</div>
+            <blockquote class="test-quote-text">
+              "Every detail has been curated with perfection—from the custom golden tableware to the exquisite seasoning on the whole croaker fish. If you want authentic African culinary heritage executed with modern luxury, this is the gold standard."
+            </blockquote>
+            <div class="test-author-info">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80" alt="Marcus Sterling" class="test-avatar" onerror="this.src='assets/icons/favicon.svg'">
+              <div>
+                <h4 class="test-name">Marcus Sterling</h4>
+                <p class="test-role">Global Diplomat & Food Writer</p>
+                <p class="test-fav-dish">Favorite: Flame-Grilled Croaker Fish</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slider Controls -->
+          <div class="testimonial-nav-arrows">
+            <button type="button" class="test-nav-btn testimonial-prev" aria-label="Previous Review">&#10094;</button>
+            <div class="testimonial-dots"></div>
+            <button type="button" class="test-nav-btn testimonial-next" aria-label="Next Review">&#10095;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FINAL CALL TO ACTION ==================== -->
+    <section class="final-cta-section">
+      <div class="container">
+        <div class="final-cta-box reveal-up">
+          <span class="section-tag-gold">An Invitation to Excellence</span>
+          <h2 class="final-cta-title">Good Food. Great Company. <span class="text-gold">Unforgettable Moments.</span></h2>
+          <p class="final-cta-desc">
+            Join us at TOLEX RESTAURANT and experience authentic African fine dining at its finest. Your table awaits your presence.
+          </p>
+          <div class="final-cta-actions">
+            <button type="button" class="btn btn-gold btn-lg" data-open-reservation>Reserve a Table</button>
+            <a href="contact.html" class="btn btn-outline-gold btn-lg">Contact Concierge</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="tolex-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Col 1: Brand Info -->
+        <div class="footer-brand-col">
+          <a href="index.html" aria-label="TOLEX RESTAURANT Home">
+            <img src="assets/logo/logo.svg" alt="TOLEX RESTAURANT" class="brand-logo-svg" width="220">
+          </a>
+          <p class="footer-brand-desc">
+            TOLEX RESTAURANT is a premier African dining destination dedicated to celebrating authentic culinary heritage, exquisite plating, and royal hospitality in an atmosphere of modern luxury.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.374 14.5 5 15.6 5H18V0h-3.808C10.597 0 9 1.583 9 4.615V8z"/></svg>
+            </a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="TikTok">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+            </a>
+            <a href="https://wa.me/2348123456789" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="WhatsApp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.586 1.761.88 2.791.88 3.181 0 5.768-2.587 5.768-5.766.001-3.181-2.585-5.766-5.768-5.766zm9.969 5.766c0 5.514-4.486 10-10 10-1.748 0-3.385-.45-4.819-1.239l-5.181 1.355 1.378-5.034c-.879-1.488-1.378-3.219-1.378-5.082 0-5.514 4.486-10 10-10s10 4.486 10 10z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li class="footer-link-item"><a href="index.html">Home</a></li>
+            <li class="footer-link-item"><a href="about.html">About Us</a></li>
+            <li class="footer-link-item"><a href="services.html">Our Services</a></li>
+            <li class="footer-link-item"><a href="contact.html">Contact Us</a></li>
+            <li class="footer-link-item"><a href="#menu">Interactive Menu</a></li>
+            <li class="footer-link-item"><a href="services.html#catering">Event Catering</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Food Categories -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Categories</h4>
+          <ul class="footer-links-list">
+            <li class="footer-link-item"><a href="#menu" onclick="document.querySelector('[data-category=mains]')?.click()">Main Dishes</a></li>
+            <li class="footer-link-item"><a href="#menu" onclick="document.querySelector('[data-category=rice]')?.click()">Rice Specialties</a></li>
+            <li class="footer-link-item"><a href="#menu" onclick="document.querySelector('[data-category=soups]')?.click()">Soups & Swallow</a></li>
+            <li class="footer-link-item"><a href="#menu" onclick="document.querySelector('[data-category=grilled]')?.click()">Grilled Delicacies</a></li>
+            <li class="footer-link-item"><a href="#menu" onclick="document.querySelector('[data-category=appetizers]')?.click()">Appetizers & Chops</a></li>
+            <li class="footer-link-item"><a href="#menu" onclick="document.querySelector('[data-category=beverages]')?.click()">Craft Beverages</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact & Hours Placeholder -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Contact & Hours</h4>
+          <div class="footer-contact-info-list">
+            <div class="footer-contact-item">
+              <span class="footer-contact-icon">📍</span>
+              <p class="footer-contact-text">
+                Plot 14, Luxury Boulevard, Victoria Island / Downtown Culinary District [Editable Address Placeholder]
+              </p>
+            </div>
+            <div class="footer-contact-item">
+              <span class="footer-contact-icon">📞</span>
+              <p class="footer-contact-text">
+                +234 (0) 800 000 TOLEX<br>
+                +234 (0) 812 345 6789
+              </p>
+            </div>
+            <div class="footer-contact-item">
+              <span class="footer-contact-icon">✉️</span>
+              <p class="footer-contact-text">
+                reservations@tolexrestaurant.com<br>
+                info@tolexrestaurant.com
+              </p>
+            </div>
+            <div class="footer-hours-badge">
+              🕒 Mon–Thu: 11:30AM–11PM | Fri–Sun: 11:30AM–12:30AM
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <p class="footer-copy-text">
+          &copy; 2026 <span>TOLEX RESTAURANT</span>. All Rights Reserved. Luxury African Dining.
+        </p>
+        <p class="footer-copy-text" style="font-size: 0.78rem;">
+          Designed & Developed with Cinematic Excellence.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== TABLE RESERVATION MODAL ==================== -->
+  <div class="tolex-modal-backdrop" id="reservationModal" role="dialog" aria-modal="true" aria-labelledby="resModalTitle">
+    <div class="tolex-modal-dialog">
+      <div class="modal-corner-ornament top-left"></div>
+      <div class="modal-corner-ornament top-right"></div>
+      <button type="button" class="modal-close-btn" data-close-modal aria-label="Close Reservation Modal">&times;</button>
+
+      <div class="modal-header-crest text-center" style="margin-bottom: 1.5rem;">
+        <img src="assets/icons/favicon.svg" alt="TOLEX Crest" width="48" style="margin: 0 auto 0.75rem auto;">
+        <span class="section-tag-gold">Royal Hospitality</span>
+        <h3 class="modal-title" id="resModalTitle" style="font-size: 1.85rem; margin-top: 0.5rem;">Table Reservation Request</h3>
+        <p class="modal-subtitle" style="font-size: 0.92rem; color: var(--color-warm-muted); margin-top: 0.35rem;">
+          Experience an extraordinary culinary journey. Please complete your reservation details below.
+        </p>
+      </div>
+
+      <form id="tableReservationForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="resFullName">Full Name *</label>
+            <input type="text" id="resFullName" name="name" class="form-control" placeholder="e.g. Chief Adeleke" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="resPhone">Phone Number *</label>
+            <input type="tel" id="resPhone" name="phone" class="form-control" placeholder="+234 or +1 ..." required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="resEmail">Email Address *</label>
+            <input type="email" id="resEmail" name="email" class="form-control" placeholder="name@domain.com" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="resGuests">Number of Guests *</label>
+            <select id="resGuests" name="guests" class="form-control" required>
+              <option value="1">1 Guest (Solo Dining)</option>
+              <option value="2" selected>2 Guests (Romantic Dinner)</option>
+              <option value="3">3 - 4 Guests (Small Party)</option>
+              <option value="6">5 - 8 Guests (Family & Friends)</option>
+              <option value="12">9 - 15 Guests (Private Banquet)</option>
+              <option value="20">16+ Guests (VIP Salon Booking)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="resDate">Preferred Date *</label>
+            <input type="date" id="resDate" name="date" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="resTime">Preferred Time *</label>
+            <select id="resTime" name="time" class="form-control" required>
+              <option value="12:00 PM">12:00 PM (Lunch)</option>
+              <option value="01:30 PM">01:30 PM (Lunch)</option>
+              <option value="03:00 PM">03:00 PM (Afternoon)</option>
+              <option value="06:30 PM">06:30 PM (Early Dinner)</option>
+              <option value="08:00 PM" selected>08:00 PM (Prime Dinner)</option>
+              <option value="09:30 PM">09:30 PM (Late Night Dining)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="resSeating">Seating Preference</label>
+          <select id="resSeating" name="seating" class="form-control">
+            <option value="Main Dining Room">Main Dining Room (Chandelier Ambience)</option>
+            <option value="Private VIP Lounge">Private VIP Lounge (Discreet & Intimate)</option>
+            <option value="Garden Terrace">Garden Terrace (Al Fresco Evening)</option>
+            <option value="Chef's Counter">Chef's Tasting Counter</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="resSpecialRequests">Special Requests / Occasion / Dietary</label>
+          <textarea id="resSpecialRequests" name="special_requests" class="form-control" placeholder="e.g., Birthday celebration, anniversary champagne, allergy notes, quiet booth..."></textarea>
+        </div>
+
+        <div class="res-notice-box" style="background: rgba(245, 197, 27, 0.08); border: 1px solid rgba(245, 197, 27, 0.25); padding: 0.85rem; border-radius: var(--radius-sm); margin-bottom: 1.5rem; font-size: 0.82rem; color: var(--color-warm-muted);">
+          ⚠️ <strong>Notice:</strong> Submitting this request sends your preferred reservation time to our team. Your table is confirmed once approved by restaurant management.
+        </div>
+
+        <button type="submit" class="btn btn-gold btn-lg w-100">
+          Submit Table Reservation Request
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==================== ORDER ENQUIRY CART DRAWER ==================== -->
+  <div class="cart-drawer-backdrop" id="cartDrawerBackdrop"></div>
+  <aside class="order-cart-drawer" id="orderCartDrawer" aria-label="Order Enquiry Cart">
+    <div class="cart-drawer-header">
+      <div style="display: flex; align-items: center; gap: 0.75rem;">
+        <span style="font-size: 1.4rem;">🛍️</span>
+        <h3 class="cart-drawer-title">Order Enquiry Cart</h3>
+      </div>
+      <button type="button" class="modal-close-btn" id="closeCartDrawerBtn" aria-label="Close Cart">&times;</button>
+    </div>
+
+    <!-- Empty State -->
+    <div class="cart-drawer-empty-state" id="cartEmptyState">
+      <div style="font-size: 3rem; margin-bottom: 1rem; opacity: 0.6;">🍽️</div>
+      <h4 style="font-size: 1.25rem; color: var(--color-warm-white); margin-bottom: 0.5rem;">Your Cart is Empty</h4>
+      <p style="font-size: 0.9rem; margin-bottom: 1.5rem;">Explore our popular dishes and add your favorites to build your enquiry.</p>
+      <a href="#menu" class="btn btn-gold btn-sm" onclick="window.tolexCart.closeCart()">Browse Food Menu</a>
+    </div>
+
+    <!-- Active Items List -->
+    <div class="cart-items-scroll-area" id="cartItemsList">
+      <!-- Injected dynamically -->
+    </div>
+
+    <!-- Footer & Checkout -->
+    <div class="cart-drawer-footer" id="cartCheckoutContainer" style="display: none;">
+      <div class="cart-subtotal-row">
+        <span class="subtotal-label">Estimated Total:</span>
+        <span class="subtotal-val" id="cartSubtotalAmount">₦0</span>
+      </div>
+
+      <div class="form-group" style="margin-bottom: 0.85rem;">
+        <input type="text" id="cartCustomerName" class="form-control" placeholder="Your Name (Required for enquiry)">
+      </div>
+
+      <div class="form-group" style="margin-bottom: 0.85rem;">
+        <select id="cartOrderType" class="form-control">
+          <option value="Dine-in / Table Service">Dine-in / Table Service</option>
+          <option value="Takeaway / Pickup">Takeaway / Express Pickup</option>
+          <option value="Event Catering Enquiry">Event Catering Enquiry</option>
+        </select>
+      </div>
+
+      <div class="form-group" style="margin-bottom: 1.25rem;">
+        <input type="text" id="cartSpecialInstructions" class="form-control" placeholder="Special instructions / Spice preferences">
+      </div>
+
+      <button type="button" class="btn btn-gold w-100" id="cartWhatsAppCheckoutBtn" style="margin-bottom: 0.75rem;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 0.35rem;"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.586 1.761.88 2.791.88 3.181 0 5.768-2.587 5.768-5.766.001-3.181-2.585-5.766-5.768-5.766zm9.969 5.766c0 5.514-4.486 10-10 10-1.748 0-3.385-.45-4.819-1.239l-5.181 1.355 1.378-5.034c-.879-1.488-1.378-3.219-1.378-5.082 0-5.514 4.486-10 10-10s10 4.486 10 10z"/></svg>
+        Send Order Enquiry via WhatsApp
+      </button>
+
+      <p style="font-size: 0.75rem; color: var(--color-warm-muted); text-align: center;">
+        *This sends a structured enquiry directly to our WhatsApp service desk. No online credit card charge occurs.
+      </p>
+    </div>
+  </aside>
+
+  <!-- Floating Cart Trigger Button -->
+  <button type="button" class="floating-cart-trigger" id="floatingCartBtn" data-open-cart aria-label="Open Order Cart">
+    <span>🛍️ View Order Enquiry (<span class="cart-counter-badge" style="display:inline-flex;">0</span>)</span>
+  </button>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-to-top-btn" id="backToTopBtn" aria-label="Back to Top">
+    ↑
+  </button>
+
+  <!-- SCRIPTS -->
+  <script src="js/menu.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/reservations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
