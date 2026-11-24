@@ -71,7 +71,7 @@ An award-winning, responsive, four-page restaurant website designed and develope
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/<your-username>/tolex-restaurant.git
+   git clone https://github.com/0Adetola2/tolex-restaurant.git
    ```
 2. Open `index.html` in any modern web browser (Google Chrome, Microsoft Edge, Mozilla Firefox, Safari).
 3. No build tools or package managers required.

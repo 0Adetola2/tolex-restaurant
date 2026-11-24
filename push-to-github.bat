@@ -10,7 +10,7 @@ if not exist "%GIT_EXE%" (
     set "GIT_EXE=git"
 )
 
-set "REPO_URL=https://github.com/praizstudio74-coder/tolex-restaurant.git"
+set "REPO_URL=https://github.com/0Adetola2/tolex-restaurant.git"
 
 echo ========================================================
 echo        TOLEX RESTAURANT - PUSH TO GITHUB
@@ -24,7 +24,7 @@ cd /d "C:\Users\Acer\.gemini\antigravity\scratch\tolex-restaurant"
 echo [*] Staging all files...
 "%GIT_EXE%" add -A
 
-echo [*] Committing changes...
+echo [*] Committing latest changes...
 "%GIT_EXE%" commit -m "feat: complete luxury restaurant website for TOLEX RESTAURANT" 2>nul
 
 echo [*] Setting branch to main...
@@ -42,22 +42,15 @@ if %errorlevel% equ 0 (
     echo.
     echo ========================================================
     echo  SUCCESS! Website is now live on GitHub:
-    echo  https://github.com/praizstudio74-coder/tolex-restaurant
+    echo  https://github.com/0Adetola2/tolex-restaurant
     echo ========================================================
 ) else (
     echo.
     echo ========================================================
     echo  PUSH NOTICE:
-    echo ========================================================
-    echo  If the repository does not exist on your GitHub yet:
-    echo  1. Open https://github.com/new in your browser
-    echo  2. Enter Repository name: tolex-restaurant
-    echo  3. Leave "Initialize with README" UNCHECKED
-    echo  4. Click "Create repository"
-    echo  5. Re-run this script to push immediately!
-    echo.
-    echo  Alternatively, if using a GitHub Personal Access Token (PAT):
-    echo  "%GIT_EXE%" push https://YOUR_TOKEN@github.com/praizstudio74-coder/tolex-restaurant.git main
+    echo  If authentication failed or prompted, you can push with
+    echo  a GitHub Personal Access Token (PAT):
+    echo  "%GIT_EXE%" push https://YOUR_TOKEN@github.com/0Adetola2/tolex-restaurant.git main
     echo ========================================================
 )
 

@@ -9,12 +9,7 @@ if (-not (Test-Path $gitExe)) {
 Set-Location "C:\Users\Acer\.gemini\antigravity\scratch\tolex-restaurant"
 
 Write-Host "Configuring remote..." -ForegroundColor Cyan
-$remotes = & $gitExe remote
-if ($remotes -contains "origin") {
-    & $gitExe remote set-url origin "https://github.com/praizstudio74-coder/tolex-restaurant.git"
-} else {
-    & $gitExe remote add origin "https://github.com/praizstudio74-coder/tolex-restaurant.git"
-}
+& $gitExe remote set-url origin "https://github.com/0Adetola2/tolex-restaurant.git"
 
 Write-Host "Remote URL:" -ForegroundColor Yellow
 & $gitExe remote -v
